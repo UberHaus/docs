@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Streamlined Experience',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Enabling a simple interface to create and view payments
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Information Access',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Providing reliable, auditable, and immutable information flows.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Contractual Enforcement',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Through Impartial third-party dispute resolution
       </>
     ),
   },
@@ -71,7 +68,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/introducing-smart-invoice')}>
               Get Started
             </Link>
           </div>

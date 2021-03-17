@@ -2,14 +2,16 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'Overview',
       items: [
         'introducing-smart-invoice',
-        'create-a-page',
-        'create-a-document',
-        'markdown-features',
-        'thank-you',
+        'how-does-it-work',
+        'creating-a-smart-invoice',
+        'complete-invoice',
+        'view-existing-invoice',
+        'FAQ',
       ],
     },
   ],
 };
+
