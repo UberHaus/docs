@@ -8,29 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Streamlined Experience',
+    title: 'DAO of DAOs',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Enabling a simple interface to create and view payments
+        Governing the Entire DAOhaus Ecosystem
       </>
     ),
   },
   {
-    title: 'Information Access',
+    title: 'Decentralizing Ownership',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Providing reliable, auditable, and immutable information flows.
+        Giving your organization a say in the direction of DAOhaus
       </>
     ),
   },
   {
-    title: 'Contractual Enforcement',
+    title: 'Autonomous by Virtue',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Through Impartial third-party dispute resolution
+        Leveraging the use of HAUS token for incentives alignement
       </>
     ),
   },
@@ -68,7 +68,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/introducing-smart-invoice')}>
+              to={useBaseUrl('docs/welcome')}>
               Get Started
             </Link>
           </div>

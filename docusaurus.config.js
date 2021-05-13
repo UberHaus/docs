@@ -1,24 +1,24 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Smart Invoice FAQ',
-  tagline: 'Your #1 Guide to Smart Invoice',
+  title: 'UberHaus Docs',
+  tagline: 'Your #1 Guide to UberHaus DAO',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'raid-guild', // Usually your GitHub org/user name.
-  projectName: 'Smart-Invoice.FAQ', // Usually your repo name.
+  projectName: 'UberHaus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Smart Invoice FAQ',
+      title: 'UberHaus DAO',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          href: 'https://github.com/raid-guild/smart-invoice',
+          href: 'https://github.com/UberHaus/docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,12 +32,12 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'docs/introducing-smart-invoice',
+              to: 'docs/welcome',
               position: 'left',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/raid-guild/smart-invoice',
+              href: 'https://github.com/UberHaus/docs',
               position: 'left'
             },
           ],
@@ -47,12 +47,12 @@ module.exports = {
           items: [
             {
               label: 'Discord',
-              href: 'https://discord.gg/YwfYQbWG',
+              href: 'https://discord.gg/7K4HenWeJa',
               position: 'right'
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/RaidGuild',
+              href: 'https://twitter.com/nowdaoit',
               position: 'right'
             },
           ],
@@ -69,13 +69,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/UberHaus/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
