@@ -10,6 +10,17 @@ module.exports = {
   organizationName: 'raid-guild', // Usually your GitHub org/user name.
   projectName: 'UberHaus', // Usually your repo name.
   themeConfig: {
+    image: 'https://daohaus.club/images/daohaus-main.jpg',
+    metadatas: [
+      {name: 'og:type', content: 'website'},
+      {name: 'og:description', content: 'UberHaus Docs'},
+      {name: 'og:site_name', content: 'DAOhaus'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@nowdaoit'},
+      {name: 'twitter:title', content: 'DAOhaus'},
+      {name: 'twitter:description', content: 'DAOhaus is a no code platform for Moloch DAOs.'},
+      {name: 'twitter:image', content: 'https://daohaus.club/images/daohaus-main.jpg'}
+    ],
     navbar: {
       title: 'UberHaus DAO',
       logo: {
@@ -69,7 +80,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/UberHaus/docs',
+            'https://github.com/UberHaus/docs/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
