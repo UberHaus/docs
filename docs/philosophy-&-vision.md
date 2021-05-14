@@ -12,5 +12,3 @@ UberHaus is charged with laying the foundation for DAO2DAO relations.  It is wit
  
 UberHaus is looking to achieve it's wider goals of exiting to the community, this means decentralizing as much of the DAOhaus platform as quickly and as safely as possible for it be the first DAO platform completely run by DAOs.
  
-Time to slay Moloch together! ⚔️
-
