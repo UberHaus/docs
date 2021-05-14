@@ -3,6 +3,9 @@ title: Manifesto 📜
 --- 
  
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b68d084... - fixed broken “edit doc” link
 For HAUS to be successful, we must defeat Moloch and harness coordination as the 7th element of nature.
 
 This network of DAOs, bound through a token, shall become a nation of community-centric orginizations. No borders, no passports, only collaboration. This community of communities now owns the DAOhaus suite of products.
@@ -22,6 +25,7 @@ We align all Moloch DAOs under a common goal of spreading the good word of decen
 And overall, have fun, don’t take ourselves too seriously, respect our deversity.
 
 ***If you want to go fast, go alone. If you want to go far, go together.***
+<<<<<<< HEAD
 =======
 ### Where is UberHaus Headed 🙈?
  
@@ -38,4 +42,6 @@ UberHaus is looking to achieve it's wider goals of exiting to the community, thi
 Time to slay Moloch together! ⚔️
 >>>>>>> 822c8d7... Update philosophy-&-vision.md
 
+=======
+>>>>>>> b68d084... - fixed broken “edit doc” link
 
