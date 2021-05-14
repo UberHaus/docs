@@ -2,7 +2,7 @@
 title: Philosophy & Vision 
 --- 
  
-UberHaus believes DAOs of all types can contribute value, and the main question UberHaus begs that your DAO consider is, What can your DAO do for UberHaus?
+UberHaus believes DAOs of all types can contribute value, and the main question UberHaus begs that your DAO consider is, what can your DAO do for UberHaus?
  
 This question is a core principle to several of the DAOs operating on DAOhaus today, and it serves as guidance to individual contributors of many types, keeping DAOhaus lean and mean in its unified pursuit aimed at defeating Moloch.  
  
