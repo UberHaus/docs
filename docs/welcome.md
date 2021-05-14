@@ -17,12 +17,3 @@ UberHaus DAO is the governing body for the DAOhaus platform, so that it becomes 
 UberHaus unites all of the DAOs across the DAOhaus platform.
 
 UberHaus is working to build more tooling, strengthen community and further the adoption of decentralized and digital coordination. 
- 
-
-### Where is UberHaus Headed 🙈? 
-
-UberHaus believes DAOs of all types can contribute value, and the main question UberHaus begs that your DAO consider is,_What can your DAO do for UberHaus_?
- 
-This question is a core principle to several of the DAOs operating on DAOhaus today, and it serves as guidance to individual contributors of many types, keeping DAOhaus lean and mean in its unified pursuit aimed at defeating Moloch.  
- 
-UberHaus is committed to upholding the tradition of transparency through actively educating and disseminating information about the processes, discussions, and progress that UberHaus makes through fulfilling its purpose.
