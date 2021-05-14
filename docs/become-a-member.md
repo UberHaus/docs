@@ -53,8 +53,8 @@ Once you have you have selected a delegate and given your minion a name, click �
  
 The next step is for you to make a proposal to Stake Haus into the UberHaus DAO, but before you can make a proposal you need to get your DAO and minion ready to work with HAUS.  
  
-Approve HAUS in your DAO by making a “Token Proposal” and whitelisting the address by entering the token contract address in the field “Token Address”
-Send HAUS to your Minion’s Address (found just 👇)
+1. Approve HAUS in your DAO by making a “Token Proposal” and whitelisting the address by entering the token contract address in the field “Token Address”
+2. Send HAUS to your Minion’s Address (found just 👇)
  
 Now your DAO and Minion are ready to go. 
  

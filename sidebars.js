@@ -9,7 +9,18 @@ module.exports = {
 			  'molochv2',
 			  'uberhaus-members',
 		  	'uberhaus-shares',
-        'become-a-member'
+        'proposal-flow',
+        'proposal-types',
+        'xdai-setup',
+        'become-a-member',
+        'governance-mining',
+        'community',
+        'meetings',
+        'grants',
+        'forum',
+        'socials-media'
+
+
       ],
     },
   ],
