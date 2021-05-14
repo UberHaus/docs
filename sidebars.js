@@ -19,8 +19,6 @@ module.exports = {
         'grants',
         'forum',
         'socials-media'
-
-
       ],
     },
   ],

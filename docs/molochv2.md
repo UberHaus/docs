@@ -1,5 +1,5 @@
 ---
-title: Moloch V2
+title: Moloch V2 👺
 ---
  
 UberHaus utilizes the Moloch V2 framework. A great overview of Moloch V2 and it’s benefits can be found [here](https://medium.com/raid-guild/moloch-evolved-v2-primer-25c9cdeab455).
