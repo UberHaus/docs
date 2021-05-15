@@ -14,7 +14,7 @@ module.exports = {
     metadatas: [
       {name: 'og:type', content: 'website'},
       {name: 'og:description', content: 'UberHaus Docs'},
-      {name: 'og:site_name', content: 'DAOhaus'},
+      {name: 'og:site_name', content: 'UberHaus'},
       {name: 'twitter:card', content: 'summary_large_image'},
       {name: 'twitter:site', content: '@nowdaoit'},
       {name: 'twitter:title', content: 'DAOhaus'},
