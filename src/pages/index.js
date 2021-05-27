@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Leveraging the use of HAUS token for incentives alignement
+        Leveraging the use of HAUS token for incentives alignment
       </>
     ),
   },
