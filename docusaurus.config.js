@@ -70,7 +70,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} RaidGuild, DAO`,
+      copyright: `Copyright © ${new Date().getFullYear()} UberHaus, DAO`,
     },
   },
   presets: [
