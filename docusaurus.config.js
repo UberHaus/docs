@@ -39,6 +39,13 @@ module.exports = {
         src: "img/uberhaus-logo-extended-white.svg",
       },
       items: [
+        {
+          to: "#",
+          src: "img/twitter.svg",
+
+          label: "UberHaus Twitter",
+          position: "left",
+        },
         { to: "/manifesto", label: "Manifesto", position: "right" },
         {
           to: "/become-member-dao",

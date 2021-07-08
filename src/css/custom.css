@@ -39,3 +39,16 @@ body,
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+.navbar {
+  background: var(--color-primary-blackish);
+  display: flex;
+}
+
+.navbar__item.navbar__link {
+  color: var(--color-secondary-dirty-grey);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+}
