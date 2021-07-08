@@ -1,5 +1,5 @@
-import React from "react";
-import styles from "./Intro.module.css";
+import * as React from "react";
+import styles from "./IntroSection.module.css";
 
 const IntroSection = () => {
   return (
