@@ -1,71 +1,84 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'UberHaus Docs',
-  tagline: 'Your #1 Guide to UberHaus DAO',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'raid-guild', // Usually your GitHub org/user name.
-  projectName: 'UberHaus', // Usually your repo name.
+  title: "UberHaus Docs",
+  tagline: "Your #1 Guide to UberHaus DAO",
+  url: "https://your-docusaurus-test-site.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "raid-guild", // Usually your GitHub org/user name.
+  projectName: "UberHaus", // Usually your repo name.
   themeConfig: {
-    image: 'https://daohaus.club/images/daohaus-main.jpg',
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+    image: "https://daohaus.club/images/daohaus-main.jpg",
     metadatas: [
-      {name: 'og:type', content: 'website'},
-      {name: 'og:description', content: 'UberHaus Docs'},
-      {name: 'og:title', content: 'UberHaus Docs'},
-      {name: 'og:site_name', content: 'UberHaus'},
-      {name: 'twitter:card', content: 'summary_large_image'},
-      {name: 'twitter:site', content: '@nowdaoit'},
-      {name: 'twitter:title', content: 'DAOhaus'},
-      {name: 'twitter:description', content: 'DAOhaus is a no code platform for Moloch DAOs.'},
-      {name: 'twitter:image', content: 'https://daohaus.club/images/daohaus-main.jpg'}
+      { name: "og:type", content: "website" },
+      { name: "og:description", content: "UberHaus Docs" },
+      { name: "og:title", content: "UberHaus Docs" },
+      { name: "og:site_name", content: "UberHaus" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@nowdaoit" },
+      { name: "twitter:title", content: "DAOhaus" },
+      {
+        name: "twitter:description",
+        content: "DAOhaus is a no code platform for Moloch DAOs.",
+      },
+      {
+        name: "twitter:image",
+        content: "https://daohaus.club/images/daohaus-main.jpg",
+      },
     ],
     navbar: {
-      title: 'UberHaus DAO',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: "UberHaus DAO Logo",
+        src: "img/uberhaus-logo-extended-white.svg",
       },
       items: [
+        { to: "/manifesto", label: "Manifesto", position: "right" },
         {
-          href: 'https://github.com/UberHaus/docs',
-          label: 'GitHub',
-          position: 'right',
+          to: "/become-member-dao",
+          label: "Become a Member DAO",
+          position: "right",
         },
+        { to: "/docs", label: "Docs", position: "right" },
+        { to: "/launch-app", label: "Launch App", position: "right" },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/welcome',
-              position: 'left',
+              label: "Getting Started",
+              to: "docs/welcome",
+              position: "left",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/UberHaus/docs',
-              position: 'left'
+              label: "GitHub",
+              href: "https://github.com/UberHaus/docs",
+              position: "left",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'Discord',
-              href: 'https://discord.gg/7K4HenWeJa',
-              position: 'right'
+              label: "Discord",
+              href: "https://discord.gg/7K4HenWeJa",
+              position: "right",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/nowdaoit',
-              position: 'right'
+              label: "Twitter",
+              href: "https://twitter.com/nowdaoit",
+              position: "right",
             },
           ],
         },
@@ -75,16 +88,15 @@ module.exports = {
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/UberHaus/docs/blob/main',
+          editUrl: "https://github.com/UberHaus/docs/blob/main",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],
