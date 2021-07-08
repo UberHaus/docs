@@ -1,0 +1,52 @@
+.introContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 143px 96px 153px;
+  background-color: var(--color-primary-blackish);
+}
+
+.contentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.flexCTA {
+}
+
+.introCTAHeading {
+  font-size: var(--font-size-section-heading);
+  font-weight: var(--font-weight-section-heading);
+  line-height: var(--line-height-section-heading);
+  letter-spacing: var(--letter-spacing-section-heading);
+  color: var(--color-primary-white);
+}
+
+.introCTACopy {
+}
+
+.introCTAButton {
+  background-color: var(--color-secondary-dirty-grey);
+  color: var(--color-primary-blackish);
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.6px;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 100px;
+}
+
+.introCTAButton:hover {
+  color: var(--color-primary-blackish);
+}
+
+.communityIllustrationContainer {
+}
+
+.communityIllustration {
+  width: 500px;
+  height: 500px;
+}

@@ -7,6 +7,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --color-primary-white: #ffffff;
   --color-primary-blackish: #171212;
   --color-primary-deep-red: #c32228;
   --color-primary-soft-pink: #ffdcd1;
@@ -26,6 +27,11 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+
+  --font-size-section-heading: 58px;
+  --font-weight-section-heading: 700;
+  --line-height-section-heading: 58px;
+  --letter-spacing-section-heading: -3%;
 }
 
 body,
