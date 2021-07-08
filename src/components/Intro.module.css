@@ -10,9 +10,12 @@
 .contentGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  grid-column-gap: 75px;
 }
 
 .flexCTA {
+  margin-top: 38.5px;
 }
 
 .introCTAHeading {
@@ -24,6 +27,14 @@
 }
 
 .introCTACopy {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: var(--font-size-section-copy);
+  font-weight: var(--font-weight-section-copy);
+  line-height: var(--line-height-section-copy);
+  color: var(--color-primary-white);
 }
 
 .introCTAButton {

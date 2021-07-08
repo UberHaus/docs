@@ -32,6 +32,9 @@
   --font-weight-section-heading: 700;
   --line-height-section-heading: 58px;
   --letter-spacing-section-heading: -3%;
+  --font-size-section-copy: 16px;
+  --font-weight-section-copy: 500;
+  --line-height-section-copy: 24px;
 }
 
 body,
