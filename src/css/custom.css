@@ -59,6 +59,15 @@ body,
   font-family: var(--font-family-body), sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading), sans-serif;
+}
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
@@ -105,6 +114,20 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-:afte
 .markdown > h2 {
   font-size: var(--font-size-section-heading);
   font-weight: var(--font-weight-section-heading);
+  letter-spacing: var(var(--letter-spacing-section-heading));
+  color: var(--color-primary-white);
+}
+
+.markdown > h2 {
+  font-size: var(--font-size-section-heading);
+  font-weight: var(--font-weight-section-heading);
+  letter-spacing: var(var(--letter-spacing-section-heading));
+  color: var(--color-primary-white);
+}
+
+.markdown > h3 {
+  font-size: 34px;
+  font-weight: 34px;
   letter-spacing: var(var(--letter-spacing-section-heading));
   color: var(--color-primary-white);
 }
