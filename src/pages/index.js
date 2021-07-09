@@ -6,16 +6,14 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import IntroSection from "../components/IntroSection";
+import CommunitySection from "../components/CommunitySection";
 
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description='A HAUS for your DAO <head />'
-    >
-      <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    <Layout title={`${siteConfig.title}`} description='A HAUS for your DAO.'>
+      {/* <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className='container'>
           <h1 className='hero__title'>{siteConfig.title}</h1>
           <p className='hero__subtitle'>{siteConfig.tagline}</p>
@@ -31,9 +29,10 @@ export default function Home() {
             </Link>
           </div>
         </div>
-      </header>
+      </header> */}
       <main>
         <IntroSection />
+        <CommunitySection />
       </main>
     </Layout>
   );

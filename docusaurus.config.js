@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "raid-guild", // Usually your GitHub org/user name.
+  organizationName: "UberHaus", // Usually your GitHub org/user name.
   projectName: "UberHaus", // Usually your repo name.
   themeConfig: {
     colorMode: {
