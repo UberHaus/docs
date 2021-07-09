@@ -3,15 +3,20 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px 143px 96px 153px;
+  /* padding: 0px 75px 96px 75px; */
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 66px;
+  background: red;
   background-color: var(--color-primary-blackish);
 }
 
 .threeGrid {
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-columns: 4fr 1fr 1fr;
   grid-column-gap: 75px;
   background-image: url("/img/UberHAUS_Fractal_2-Blackish.jpeg");
+  padding-top: 66px;
   padding-left: 75px;
   padding-right: 75px;
 }
@@ -26,6 +31,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 66px;
 }
 
 .communityCTAHeading {
@@ -48,13 +54,21 @@
 }
 
 .socialFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .socialContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-primary-blackish);
   border-radius: 69.6087px;
-  width: 139.22px;
-  height: 140.07px;
+  min-width: 150px;
+  height: 150px;
 }
 
 .socialCTA {
@@ -63,4 +77,26 @@
   font-size: var(--font-size-section-copy);
   font-weight: var(--font-weight-section-copy);
   line-height: 130%;
+  word-wrap: normal;
+  padding-top: 18px;
+}
+
+.socialCopyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.socialCopy {
+  font-size: var(--font-size-section-copy);
+  font-weight: var(--font-weight-section-copy);
+  line-height: var(--line-height-section-copy);
+  color: var(--color-secondary-dirty-grey);
+}
+
+.socialBolderCallout {
+  font-weight: bolder;
+  color: var(--color-primary-white);
 }
