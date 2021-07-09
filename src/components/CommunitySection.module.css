@@ -46,3 +46,21 @@
   line-height: var(--line-height-section-copy);
   color: var(--color-secondary-dirty-grey);
 }
+
+.socialFlex {
+}
+
+.socialContainer {
+  background-color: var(--color-primary-blackish);
+  border-radius: 69.6087px;
+  width: 139.22px;
+  height: 140.07px;
+}
+
+.socialCTA {
+  color: var(--color-primary-white);
+  text-transform: uppercase;
+  font-size: var(--font-size-section-copy);
+  font-weight: var(--font-weight-section-copy);
+  line-height: 130%;
+}
