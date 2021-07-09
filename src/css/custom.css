@@ -6,6 +6,17 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: "Strawford-Bold";
+  src: url("/static/fonts/Strawford-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("/static/fonts/Inter-Medium.ttf") format("truetype");
+}
+
 :root {
   --color-primary-white: #ffffff;
   --color-primary-blackish: #171212;
@@ -28,6 +39,8 @@
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 
+  --font-family-heading: "Strawford-Bold";
+  --font-family-body: "Inter-Medium";
   --font-size-oversize-heading: 72px;
   --font-weight-oversize-heading: 700;
   --line-height-oversize-heading: 72px;
@@ -43,6 +56,7 @@
 body,
 .main-wrapper {
   background-color: var(--color-primary-blackish);
+  font-family: var(--font-family-body), sans-serif;
 }
 
 .docusaurus-highlight-code-line {
@@ -76,6 +90,7 @@ body,
 h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- {
   color: var(--color-primary-soft-pink);
   text-transform: uppercase;
+  font-family: var(--font-family-heading);
   font-size: var(--font-size-oversize-heading);
   font-weight: var(--font-weight-oversize-heading);
   line-height: var(--line-height-oversize-heading);
@@ -101,4 +116,8 @@ div.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocI
 
 div.padding-vert--lg {
   padding-top: 0 !important;
+}
+
+a.hash-link {
+  color: var(--color-primary-light-turquoise);
 }
