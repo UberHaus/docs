@@ -10,8 +10,12 @@
 .contentGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
   grid-column-gap: 75px;
+}
+@media screen and (max-width: 966px) {
+  .contentGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .flexCTA {
