@@ -61,3 +61,7 @@ body,
   font-size: 12px;
   line-height: 12px;
 }
+
+.menu__link.menu__link--sublist.menu__link--active {
+  color: var(--color-secondary-bright-red);
+}
