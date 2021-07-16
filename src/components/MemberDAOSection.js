@@ -5,11 +5,11 @@ const MemberDAOSection = () => {
   return (
     <section className={styles.memberContainer}>
       <div className={styles.contentGrid}>
-        <div className={styles.communityIllustrationContainer}>
+        <div className={styles.memberIllustrationContainer}>
           <img
             src='/img/Illustration_BecomeMember.jpeg'
             alt=''
-            className={styles.communityIllustration}
+            className={styles.memberllustration}
           />
         </div>
         <div className={styles.flexCTA}>
@@ -23,8 +23,8 @@ const MemberDAOSection = () => {
             This is where you will want to showcase what your DAO can do for
             UberHaus.
           </p>
-          <a href='#' className={styles.introCTAButton}>
-            Read Manifesto ➔
+          <a href='#' className={styles.memberCTAButton}>
+            Go to Forum ➔
           </a>
         </div>
       </div>
