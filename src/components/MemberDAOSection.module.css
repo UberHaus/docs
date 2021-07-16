@@ -1,21 +1,22 @@
-.memberContainer {
+.memberFirstContainer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0px 143px 96px 153px;
+  padding: 0px 143px 0px 153px;
   background-color: var(--color-primary-blackish);
 }
 
-.contentGrid {
+.firstContentGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 75px;
+  padding-top: 96px;
   padding-left: 75px;
   padding-right: 75px;
 }
 @media screen and (max-width: 966px) {
-  .contentGrid {
+  .firstContentGrid {
     grid-template-columns: 1fr;
   }
 }
@@ -97,4 +98,27 @@
   height: 500px;
   object-fit: cover;
   object-position: bottom;
+}
+
+.memberSecondContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 143px 0px 153px;
+  background: linear-gradient(var(--color-primary-blackish), #272020);
+}
+
+.secondContentGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 75px;
+  padding-top: 96px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+@media screen and (max-width: 966px) {
+  .secondContentGrid {
+    grid-template-columns: 1fr;
+  }
 }
