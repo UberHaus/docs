@@ -103,7 +103,7 @@ function Footer() {
                 )}
               </div>
             )}
-            {/* {copyright ? (
+            {copyright ? (
               <div
                 className='footer__copyright' // Developer provided the HTML, so assume it's safe.
                 // eslint-disable-next-line react/no-danger
@@ -111,7 +111,7 @@ function Footer() {
                   __html: copyright,
                 }}
               />
-            ) : null} */}
+            ) : null}
           </div>
         )}
       </div>

@@ -7,6 +7,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import IntroSection from "../components/IntroSection";
 import CommunitySection from "../components/CommunitySection";
+import MemberDAOSection from "../components/MemberDAOSection";
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -33,6 +34,7 @@ export default function Home() {
       <main>
         <IntroSection />
         <CommunitySection />
+        <MemberDAOSection />
       </main>
     </Layout>
   );
