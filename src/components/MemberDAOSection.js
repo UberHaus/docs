@@ -37,28 +37,26 @@ const MemberDAOSection = () => {
         <div className={styles.memberSecondContainer}>
           <div className={styles.secondContentGrid}>
             <div className={styles.flexMemberCTA}>
-              <h2 className={styles.memberCTAHeading}>Become a member DAO</h2>
+              <h2 className={styles.memberCTAHeading}>Governance Mining</h2>
               <p className={styles.memberCTACopy}>
-                If you want to join UberHaus, there are several things you
-                should do before submitting an official proposal to the DAO.
-                Visit the UberHaus Forum and select “+ New Topic”.
+                Governance mining is a fairly new concept in the DAO ecosystem,
+                and it was made possible in UberHaus by allowing the DAO to
+                control HAUS token issuance.
                 <br />
                 <br />
-                This is where you will want to showcase what your DAO can do for
-                UberHaus.
+                Through participating in governance e.g. voting, proposing,
+                debating, and showing up for monthly meetings, a DAO on UberHaus
+                can receive more HAUS! Pretty cool right? If your DAO should
+                leave UberHaus, they’ll leave with more Haus than they started
+                with!
               </p>
-              <div className={styles.buttonsContainer}>
-                <a href='#' className={styles.memberCTAButton}>
-                  Go to Forum ➔
-                </a>
-                <a href='#' className={styles.memberSecondaryButton}>
-                  Learn More ➔
-                </a>
-              </div>
+              <a href='#' className={styles.memberCTAButton}>
+                Haus Mining Rules ➔
+              </a>
             </div>
             <div className={styles.memberIllustrationContainer}>
               <img
-                src='/img/Illustration_BecomeMember.jpeg'
+                src='/img/Illustration_GovMining.jpeg'
                 alt=''
                 className={styles.memberllustration}
               />
