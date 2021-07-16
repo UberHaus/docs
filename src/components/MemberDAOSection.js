@@ -12,7 +12,7 @@ const MemberDAOSection = () => {
             className={styles.memberllustration}
           />
         </div>
-        <div className={styles.flexCTA}>
+        <div className={styles.flexMemberCTA}>
           <h2 className={styles.memberCTAHeading}>Become a member DAO</h2>
           <p className={styles.memberCTACopy}>
             If you want to join UberHaus, there are several things you should do
@@ -23,9 +23,14 @@ const MemberDAOSection = () => {
             This is where you will want to showcase what your DAO can do for
             UberHaus.
           </p>
-          <a href='#' className={styles.memberCTAButton}>
-            Go to Forum ➔
-          </a>
+          <div className={styles.buttonsContainer}>
+            <a href='#' className={styles.memberCTAButton}>
+              Go to Forum ➔
+            </a>
+            <a href='#' className={styles.memberSecondaryButton}>
+              Learn More ➔
+            </a>
+          </div>
         </div>
       </div>
     </section>

@@ -20,7 +20,7 @@
   }
 }
 
-.flexCTA {
+.flexMemberCTA {
   margin-top: 38.5px;
 }
 
@@ -43,6 +43,15 @@
   color: var(--color-primary-white);
 }
 
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: transparent;
+}
+
 .memberCTAButton {
   background-color: var(--color-secondary-dirty-grey);
   color: var(--color-primary-blackish);
@@ -54,10 +63,28 @@
   text-align: center;
   text-transform: uppercase;
   border-radius: 100px;
+  min-width: 235px;
 }
 
 .memberCTAButton:hover {
   color: var(--color-primary-blackish);
+}
+
+.memberSecondaryButton {
+  background-color: transparent;
+  color: var(--color-secondary-dirty-grey);
+  padding: 15px 35px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.6px;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+  min-width: 235px;
+}
+
+.memberSecondaryButton:hover {
+  color: var(--color-primary-light-turquoise);
 }
 
 .memberIllustrationContainer {
