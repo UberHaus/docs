@@ -146,6 +146,11 @@ a.hash-link {
   color: var(--color-primary-light-turquoise);
 }
 
+.navbar.navbar--fixed-top {
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
 .navbar__item.navbar__link:last-of-type {
   color: var(--color-secondary-beige);
 }
