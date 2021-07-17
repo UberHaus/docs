@@ -145,3 +145,7 @@ div.padding-vert--lg {
 a.hash-link {
   color: var(--color-primary-light-turquoise);
 }
+
+.navbar__item.navbar__link:last-of-type {
+  color: var(--color-secondary-beige);
+}

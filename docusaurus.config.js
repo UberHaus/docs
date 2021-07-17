@@ -53,7 +53,7 @@ module.exports = {
           position: "right",
         },
         { to: "/docs", label: "Docs", position: "right" },
-        { to: "/launch-app", label: "Launch App", position: "right" },
+        { to: "/launch-app", label: "Launch App ➔", position: "right" },
       ],
     },
     footer: {
