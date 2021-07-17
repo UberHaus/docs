@@ -1,11 +1,13 @@
 import * as React from "react";
 import styles from "./SocialLinkCard.module.css";
 
-const SocialLinkCard = ({ name, icon }) => {
+const SocialLinkCard = ({ name, icon, url }) => {
   return (
     <div className={styles.socialLinkCard}>
-      {icon}
-      <span className={styles.socialLinkName}>{name}</span>
+      <a href={url} className={styles.socialLinkAnchor} target='_blank'>
+        {icon}
+        <span className={styles.socialLinkName}>{name}</span>
+      </a>
     </div>
   );
 };

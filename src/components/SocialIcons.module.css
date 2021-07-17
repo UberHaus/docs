@@ -1,0 +1,7 @@
+.SocialIconSvg {
+  transition: all ease-in-out 0.25s;
+}
+
+.SocialIconSvg:hover {
+  fill: var(--color-primary-light-turquoise);
+}

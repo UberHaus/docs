@@ -31,4 +31,6 @@
   line-height: 130%;
   word-wrap: normal;
   padding-top: 18px;
+  display: block;
+  text-align: center;
 }
