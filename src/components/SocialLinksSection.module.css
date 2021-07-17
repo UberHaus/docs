@@ -8,3 +8,26 @@
   margin-bottom: 66px;
   background-color: var(--color-primary-blackish);
 }
+
+.flexSocialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLinkCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLinkName {
+  color: var(--color-primary-white);
+  font-size: var(--font-size-section-copy);
+  font-weight: var(--font-weight-section-copy);
+  line-height: 130%;
+  word-wrap: normal;
+  padding-top: 18px;
+}
