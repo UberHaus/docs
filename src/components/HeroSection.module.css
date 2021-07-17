@@ -11,7 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 60vh;
+  min-height: 40vh;
   /* padding: 0px 75px 96px 75px; */
 
   background-image: url("/img/UberHAUS_Fractal_2-Blackish.jpeg");
@@ -40,13 +40,13 @@
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 75px;
   padding-top: 96px;
-  padding-left: 75px;
-  padding-right: 75px;
 }
 
 .heroIllustrationContainer {
   width: 581px;
   height: 535px;
+  margin-top: -25vh;
+  z-index: 2;
 }
 
 .heroCTAFlex {
@@ -54,6 +54,18 @@
   flex-direction: column;
   justify-content: center;
   padding-bottom: 100px;
+  padding-right: 99px;
+}
+
+.heroCTACopy {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: var(--font-size-section-copy);
+  font-weight: var(--font-weight-section-copy);
+  line-height: var(--line-height-section-copy);
+  color: var(--color-primary-blackish);
 }
 
 .heroButtonsContainer {
@@ -66,8 +78,8 @@
 }
 
 .heroCTAButton {
-  background-color: var(--color-secondary-dirty-grey);
-  color: var(--color-primary-blackish);
+  background-color: var(--color-primary-blackish);
+  color: var(--color-primary-white);
   padding: 15px 35px;
   font-size: 18px;
   font-weight: 700;
@@ -77,15 +89,17 @@
   text-transform: uppercase;
   border-radius: 100px;
   min-width: 235px;
+  transition: all ease-in-out 0.25s;
 }
 
 .heroCTAButton:hover {
-  color: var(--color-primary-blackish);
+  color: var(--color-primary-light-turquoise);
+  text-decoration: none;
 }
 
 .heroSecondaryButton {
   background-color: transparent;
-  color: var(--color-secondary-dirty-grey);
+  color: var(--color-medium-grey);
   padding: 15px 35px;
   font-size: 18px;
   font-weight: 700;
@@ -94,8 +108,15 @@
   text-align: center;
   text-transform: uppercase;
   min-width: 235px;
+  transition: all ease-in-out 0.25s;
 }
 
 .heroSecondaryButton:hover {
-  color: var(--color-primary-light-turquoise);
+  color: var(--color-primary-blackish);
+  text-decoration: none;
+}
+
+.heroSvgDecorator {
+  margin-top: -65px;
+  z-index: 1;
 }
