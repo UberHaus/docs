@@ -151,6 +151,6 @@ a.hash-link {
   padding-right: 75px;
 }
 
-.navbar__item.navbar__link:last-of-type {
+.navbar__item.navbar__link.navbar__launch__app {
   color: var(--color-secondary-beige);
 }
