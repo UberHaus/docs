@@ -9,6 +9,7 @@ import IntroSection from "../components/IntroSection";
 import CommunitySection from "../components/CommunitySection";
 import MemberDAOSection from "../components/MemberDAOSection";
 import SocialLinksSection from "../components/SocialLinksSection";
+import HeroSection from "../components/HeroSection";
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -33,6 +34,7 @@ export default function Home() {
         </div>
       </header> */}
       <main>
+        <HeroSection />
         <IntroSection />
         <CommunitySection />
         <SocialLinksSection />
