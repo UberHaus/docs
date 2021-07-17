@@ -34,6 +34,7 @@ module.exports = {
       },
     ],
     navbar: {
+      hideOnScroll: true,
       logo: {
         alt: "UberHaus DAO Logo",
         src: "img/uberhaus-logo-extended-white.svg",
@@ -41,39 +42,30 @@ module.exports = {
       items: [
         {
           to: "#",
-          label: "Twitter",
           position: "left",
           className: "navbar__twitter",
         },
         {
           to: "#",
-          label: "Discord",
           position: "left",
           className: "navbar__discord",
         },
         {
           to: "#",
-          label: "GitHub",
           position: "left",
           className: "navbar__github",
         },
         {
           to: "#",
-          label: "Substack",
           position: "left",
           className: "navbar__substack",
         },
         {
           to: "#",
-          label: "Telegram",
           position: "left",
           className: "navbar__telegram",
         },
-        {
-          to: "#",
-          label: "Twitter",
-          position: "left",
-        },
+
         { to: "/manifesto", label: "Manifesto", position: "right" },
         {
           to: "/become-member-dao",
