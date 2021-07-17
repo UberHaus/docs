@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "UberHaus Docs",
+  title: "UberHaus",
   tagline: "Your #1 Guide to UberHaus DAO",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
@@ -18,8 +18,8 @@ module.exports = {
     image: "https://daohaus.club/images/daohaus-main.jpg",
     metadatas: [
       { name: "og:type", content: "website" },
-      { name: "og:description", content: "UberHaus Docs" },
-      { name: "og:title", content: "UberHaus Docs" },
+      { name: "og:description", content: "UberHaus" },
+      { name: "og:title", content: "UberHaus" },
       { name: "og:site_name", content: "UberHaus" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@nowdaoit" },
