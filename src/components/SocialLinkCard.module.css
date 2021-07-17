@@ -13,3 +13,7 @@
   word-wrap: normal;
   padding-top: 18px;
 }
+
+.socialLinkAnchor:hover {
+  text-decoration: none;
+}
