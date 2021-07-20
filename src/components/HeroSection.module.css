@@ -42,11 +42,24 @@
   padding-top: 96px;
 }
 
+@media screen and (max-width: 966px) {
+  .heroGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .heroIllustrationContainer {
   width: 581px;
   height: 535px;
   margin-top: -25vh;
   z-index: 2;
+}
+
+@media screen and (max-width: 966px) {
+  .heroIllustrationContainer {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 .heroCTAFlex {
@@ -119,4 +132,10 @@
 .heroSvgDecorator {
   margin-top: -65px;
   z-index: 1;
+}
+
+@media screen and (max-width: 966px) {
+  .heroSvgDecorator {
+    display: none;
+  }
 }
