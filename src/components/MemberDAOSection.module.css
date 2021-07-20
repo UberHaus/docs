@@ -66,6 +66,7 @@
 @media screen and (max-width: 966px) {
   .memberCTACopy {
     padding: 0;
+    padding-bottom: 16px;
   }
 }
 
@@ -81,6 +82,8 @@
 @media screen and (max-width: 966px) {
   .buttonsContainer {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
@@ -100,7 +103,7 @@
 
 @media screen and (max-width: 966px) {
   .memberCTAButton {
-    padding: 0 1rem;
+    padding: 15px 35px;
   }
 }
 
@@ -183,5 +186,6 @@
     grid-column-gap: 0px;
     align-items: center;
     padding: 1rem;
+    padding-bottom: 4rem;
   }
 }
