@@ -9,11 +9,6 @@
   background-color: var(--color-primary-blackish);
 }
 
-@media screen and (max-width: 966px) {
-  .socialLinksContainer {
-  }
-}
-
 .flexSocialLinks {
   display: flex;
   flex-direction: row;
@@ -26,6 +21,7 @@
   .flexSocialLinks {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 2rem;
   }
 }
 
@@ -45,4 +41,9 @@
   padding-top: 18px;
   display: block;
   text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .socialLinkName {
+    padding-top: 9px;
+  }
 }
