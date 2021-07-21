@@ -56,7 +56,7 @@
 
 .footerNavItem {
   color: var(--color-footer-gray);
-  font-family: var(--font-family-body);
+  font-family: var(--font-family-body-medium);
   font-size: var(--font-size-section-copy);
   line-height: var(--line-height-section-copy);
 }
