@@ -7,6 +7,10 @@
 
 /* You can override the default Infima variables here. */
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Strawford-Bold";
   src: url("/static/fonts/Strawford-Bold.otf") format("truetype");
@@ -53,6 +57,11 @@
   --line-height-section-copy: 24px;
 }
 
+html {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 body,
 .main-wrapper {
   background-color: var(--color-primary-blackish);
