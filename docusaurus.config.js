@@ -83,6 +83,10 @@ module.exports = {
     },
     footer: {
       style: "dark",
+      logo: {
+        alt: "UberHaus DAO Logo",
+        src: "img/uberhaus-logo-extended-white.svg",
+      },
       links: [
         {
           title: "Docs",

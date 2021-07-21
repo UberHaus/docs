@@ -5,9 +5,39 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+/* This component code has been swizzled and extended by UberHaus */
+
+.footerContainer {
+  margin: 0 75px 75px 75px;
+  background: var(--color-darker-grey);
+}
+
+.footerContentContainer {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  background: red;
+  height: 100px;
+  padding: 40px 85px 0px 85px;
+}
+
+.logoSocialContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialLinksContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .footerLogoLink {
   opacity: 0.5;
-  transition: opacity var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  transition: opacity var(--ifm-transition-fast)
+    var(--ifm-transition-timing-default);
 }
 
 .footerLogoLink:hover {
