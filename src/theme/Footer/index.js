@@ -136,7 +136,7 @@ function Footer() {
             {links.map((linkItem, i) => (
               <div key={i} className='col footer__col'>
                 {linkItem.title != null ? (
-                  <h3 className='footer__title'>{linkItem.title}</h3>
+                  <h3 className={styles.footerNavTitle}>{linkItem.title}</h3>
                 ) : null}
                 {linkItem.items != null &&
                 Array.isArray(linkItem.items) &&
@@ -146,14 +146,17 @@ function Footer() {
                       item.html ? (
                         <li
                           key={key}
-                          className='footer__item' // Developer provided the HTML, so assume it's safe.
+                          className={styles.footerNavItem} // Developer provided the HTML, so assume it's safe.
                           // eslint-disable-next-line react/no-danger
                           dangerouslySetInnerHTML={{
                             __html: item.html,
                           }}
                         />
                       ) : (
-                        <li key={item.href || item.to} className='footer__item'>
+                        <li
+                          key={item.href || item.to}
+                          className={styles.footerNavItem}
+                        >
                           <FooterLink {...item} />
                         </li>
                       )

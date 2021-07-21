@@ -43,8 +43,22 @@
 }
 
 .copyrightText {
-  color: var(--color-copyright-gray);
+  color: var(--color-footer-gray);
   font-size: 14px;
+}
+
+.footerNavTitle {
+  color: var(--color-footer-gray);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-section-copy);
+  line-height: var(--line-height-section-copy);
+}
+
+.footerNavItem {
+  color: var(--color-footer-gray);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-section-copy);
+  line-height: var(--line-height-section-copy);
 }
 
 .footerLogoLink {

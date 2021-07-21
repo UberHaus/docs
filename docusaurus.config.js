@@ -89,41 +89,6 @@ module.exports = {
       },
       links: [
         {
-          title: "Docs",
-          items: [
-            {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-            {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-            {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-            {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-            {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-            {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-          ],
-        },
-        {
           title: "UberHaus",
           items: [
             {
@@ -154,6 +119,41 @@ module.exports = {
             {
               label: "Manifesto",
               to: "docs/manifesto",
+              position: "right",
+            },
+          ],
+        },
+        {
+          title: "Docs",
+          items: [
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
               position: "right",
             },
           ],

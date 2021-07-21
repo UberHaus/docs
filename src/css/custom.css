@@ -17,6 +17,11 @@
 }
 
 @font-face {
+  font-family: "Inter-Regular";
+  src: url("/static/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Inter-Medium";
   src: url("/static/fonts/Inter-Medium.ttf") format("truetype");
 }
@@ -35,7 +40,7 @@
   --color-darker-grey: #3b3232;
   --color-medium-grey: #6f6565;
   --color-light-grey: #cec6c5;
-  --color-copyright-gray: #929292;
+  --color-footer-gray: #929292;
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: rgb(33, 175, 144);
   --ifm-color-primary-darker: rgb(31, 165, 136);
@@ -46,7 +51,8 @@
   --ifm-code-font-size: 95%;
 
   --font-family-heading: "Strawford-Bold";
-  --font-family-body: "Inter-Medium";
+  --font-family-body: "Inter-Regular";
+  --font-family-body-medium: "Inter-Medium",
   --font-size-oversize-heading: 72px;
   --font-weight-oversize-heading: 700;
   --line-height-oversize-heading: 72px;
