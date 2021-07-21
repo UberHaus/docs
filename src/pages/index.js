@@ -34,8 +34,8 @@ export default function Home() {
         </div>
       </header> */}
       <main>
-        {/* <HeroSection /> */}
-        <IntroSection />
+        <HeroSection />
+        {/* <IntroSection /> */}
         {/* <CommunitySection /> */}
         {/* <SocialLinksSection /> */}
         {/* <MemberDAOSection /> */}

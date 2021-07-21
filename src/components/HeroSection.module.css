@@ -6,6 +6,12 @@
   margin-bottom: 66px;
 }
 
+@media screen and (max-width: 966px) {
+  .heroSectionContainer {
+    margin: 0;
+  }
+}
+
 .heroTopContainer {
   display: flex;
   flex-direction: column;
@@ -45,6 +51,8 @@
 @media screen and (max-width: 966px) {
   .heroGrid {
     grid-template-columns: 1fr;
+    grid-column-gap: 0;
+    padding: 0;
   }
 }
 
@@ -70,6 +78,12 @@
   padding-right: 99px;
 }
 
+@media screen and (max-width: 966px) {
+  .heroCTAFlex {
+    padding: 0;
+  }
+}
+
 .heroCTACopy {
   padding-left: 0;
   padding-right: 0;
@@ -88,6 +102,12 @@
   align-items: center;
   width: 100%;
   background-color: transparent;
+}
+
+@media screen and (max-width: 966px) {
+  .heroButtonsContainer {
+    flex-direction: column;
+  }
 }
 
 .heroCTAButton {
