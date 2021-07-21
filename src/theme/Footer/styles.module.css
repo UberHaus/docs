@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
   padding: 40px 85px 0px 85px;
-  height: 500px;
+  height: 300px;
 }
 
 .logoSocialContainer {
@@ -39,9 +39,12 @@
 .copyrightContainer {
   display: grid;
   grid-template-columns: 2fr 1fr;
-
   padding: 40px 85px;
-  background: red;
+}
+
+.copyrightText {
+  color: var(--color-copyright-gray);
+  font-size: 14px;
 }
 
 .footerLogoLink {

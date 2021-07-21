@@ -41,13 +41,10 @@ function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   );
 }
 
-const FooterLogo = ({ sources, alt }) => (
-  <ThemedImage className='footer__logo' alt={alt} sources={sources} />
-);
-
 function Footer() {
   const { footer } = useThemeConfig();
   const { copyright, links = [], logo = {} } = footer || {};
+  console.log("links:", footer.links);
   const sources = {
     light: useBaseUrl(logo.src),
     dark: useBaseUrl(logo.srcDark || logo.src),
@@ -134,15 +131,50 @@ function Footer() {
             <FooterTelegramIcon />
           </div>
         </div>
-        <div>hi</div>
-        <div>hi</div>
+        {links && links.length > 0 && (
+          <>
+            {links.map((linkItem, i) => (
+              <div key={i} className='col footer__col'>
+                {linkItem.title != null ? (
+                  <h3 className='footer__title'>{linkItem.title}</h3>
+                ) : null}
+                {linkItem.items != null &&
+                Array.isArray(linkItem.items) &&
+                linkItem.items.length > 0 ? (
+                  <ul className='footer__items'>
+                    {linkItem.items.map((item, key) =>
+                      item.html ? (
+                        <li
+                          key={key}
+                          className='footer__item' // Developer provided the HTML, so assume it's safe.
+                          // eslint-disable-next-line react/no-danger
+                          dangerouslySetInnerHTML={{
+                            __html: item.html,
+                          }}
+                        />
+                      ) : (
+                        <li key={item.href || item.to} className='footer__item'>
+                          <FooterLink {...item} />
+                        </li>
+                      )
+                    )}
+                  </ul>
+                ) : null}
+              </div>
+            ))}
+          </>
+        )}
+        {/* <div>hi</div> */}
+        {/* <div>hi</div> */}
       </div>
       <div className={styles.copyrightContainer}>
-        <span>
+        <span className={styles.copyrightText}>
           UberHAUS 2021 • Built by the HausDAO community in partnership with
           Kolektivo Labs
         </span>
-        <span>Privacy & Cookies • Terms of Use</span>
+        <span className={styles.copyrightText}>
+          Privacy & Cookies • Terms of Use
+        </span>
       </div>
     </footer>
   );

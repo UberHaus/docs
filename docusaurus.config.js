@@ -92,28 +92,68 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Getting Started",
-              to: "docs/welcome",
-              position: "left",
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/UberHaus/docs",
-              position: "left",
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
+            },
+            {
+              label: "Governance Mining",
+              to: "docs/governance-mining",
+              position: "right",
             },
           ],
         },
         {
-          title: "Community",
+          title: "UberHaus",
           items: [
             {
-              label: "Discord",
-              href: "https://discord.gg/7K4HenWeJa",
+              label: "Manifesto",
+              to: "docs/manifesto",
               position: "right",
             },
             {
-              label: "Twitter",
-              href: "https://twitter.com/nowdaoit",
+              label: "Manifesto",
+              to: "docs/manifesto",
+              position: "right",
+            },
+            {
+              label: "Manifesto",
+              to: "docs/manifesto",
+              position: "right",
+            },
+            {
+              label: "Manifesto",
+              to: "docs/manifesto",
+              position: "right",
+            },
+            {
+              label: "Manifesto",
+              to: "docs/manifesto",
+              position: "right",
+            },
+            {
+              label: "Manifesto",
+              to: "docs/manifesto",
               position: "right",
             },
           ],
