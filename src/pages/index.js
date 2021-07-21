@@ -37,8 +37,8 @@ export default function Home() {
         {/* <HeroSection /> */}
         {/* <IntroSection /> */}
         {/* <CommunitySection /> */}
-        {/* <SocialLinksSection /> */}
-        <MemberDAOSection />
+        <SocialLinksSection />
+        {/* <MemberDAOSection /> */}
       </main>
     </Layout>
   );
