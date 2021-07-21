@@ -41,22 +41,22 @@ module.exports = {
       },
       items: [
         {
-          to: "#",
+          to: "https://twitter.com/nowdaoit",
           position: "left",
           className: "navbar__twitter",
         },
         {
-          to: "#",
+          to: "https://discord.gg/daohaus",
           position: "left",
           className: "navbar__discord",
         },
         {
-          to: "#",
+          to: "https://github.com/UberHaus/docs",
           position: "left",
           className: "navbar__github",
         },
         {
-          to: "#",
+          to: "https://daohaus.substack.com/",
           position: "left",
           className: "navbar__substack",
         },
@@ -123,7 +123,7 @@ module.exports = {
             },
             {
               label: "Forum",
-              to: "docs/forum",
+              to: "https://forum.daohaus.club/c/uberhaus/58",
               position: "right",
             },
           ],

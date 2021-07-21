@@ -19,10 +19,15 @@ const HeroSection = () => {
               products.
             </span>
             <div className={styles.heroButtonsContainer}>
-              <a href='#' className={styles.heroCTAButton}>
+              <a
+                href='https://app.daohaus.club/dao/0x64/0x4bec8e49aa44bb520bd5e29d6358e22464b5eb68'
+                target='_blank'
+                rel='noopener noreferrer'
+                className={styles.heroCTAButton}
+              >
                 Launch App ➔
               </a>
-              <a href='#' className={styles.heroSecondaryButton}>
+              <a href='/docs/welcome/' className={styles.heroSecondaryButton}>
                 Learn More ➔
               </a>
             </div>

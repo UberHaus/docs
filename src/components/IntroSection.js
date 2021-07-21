@@ -16,7 +16,10 @@ const IntroSection = () => {
               collaboration. This community of communities now owns the DaoHaus
               suite of products.
             </p>
-            <a href='#' className={styles.introCTAButton}>
+            <a
+              href='/docs/philosophy-&-vision.md'
+              className={styles.introCTAButton}
+            >
               Read Manifesto ➔
             </a>
           </div>

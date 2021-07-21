@@ -25,10 +25,13 @@ const MemberDAOSection = () => {
               UberHaus.
             </p>
             <div className={styles.buttonsContainer}>
-              <a href='#' className={styles.memberCTAButton}>
+              <a
+                href='https://forum.daohaus.club/c/uberhaus/58'
+                className={styles.memberCTAButton}
+              >
                 Go to Forum ➔
               </a>
-              <a href='#' className={styles.memberSecondaryButton}>
+              <a href='/docs/welcome/' className={styles.memberSecondaryButton}>
                 Learn More ➔
               </a>
             </div>
@@ -50,7 +53,10 @@ const MemberDAOSection = () => {
                 leave UberHaus, they’ll leave with more Haus than they started
                 with!
               </p>
-              <a href='#' className={styles.memberCTAButton}>
+              <a
+                href='/docs/governance-mining'
+                className={styles.memberCTAButton}
+              >
                 Haus Mining Rules ➔
               </a>
             </div>
