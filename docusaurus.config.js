@@ -66,15 +66,20 @@ module.exports = {
           className: "navbar__telegram",
         },
 
-        { to: "/manifesto", label: "Manifesto", position: "right" },
         {
-          to: "/become-member-dao",
+          to: "/docs/philosophy-&-vision",
+          label: "Manifesto",
+          position: "right",
+        },
+        {
+          to: "/docs/become-a-member",
           label: "Become a Member DAO",
           position: "right",
         },
-        { to: "/docs", label: "Docs", position: "right" },
+        { to: "/docs/welcome/", label: "Docs", position: "right" },
         {
-          to: "/launch-app",
+          to:
+            "https://app.daohaus.club/dao/0x64/0x4bec8e49aa44bb520bd5e29d6358e22464b5eb68",
           label: "Launch App ➔",
           position: "right",
           className: "navbar__launch__app",
