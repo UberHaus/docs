@@ -36,6 +36,14 @@
   width: 100%;
 }
 
+.copyrightContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  padding: 40px 85px;
+  background: red;
+}
+
 .footerLogoLink {
   opacity: 0.5;
   transition: opacity var(--ifm-transition-fast)

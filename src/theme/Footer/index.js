@@ -137,6 +137,13 @@ function Footer() {
         <div>hi</div>
         <div>hi</div>
       </div>
+      <div className={styles.copyrightContainer}>
+        <span>
+          UberHAUS 2021 • Built by the HausDAO community in partnership with
+          Kolektivo Labs
+        </span>
+        <span>Privacy & Cookies • Terms of Use</span>
+      </div>
     </footer>
   );
 }
