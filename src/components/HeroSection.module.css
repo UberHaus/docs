@@ -161,6 +161,10 @@
   text-decoration: none;
 }
 
+.heroSvgDecoratorContainer {
+  width: 100%;
+  height: 100%;
+}
 .heroSvgDecorator {
   /* margin-top: -65px; */
   position: absolute;
