@@ -12,11 +12,28 @@
   background: var(--color-darker-grey);
 }
 
+@media screen and (max-width: 966px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
+
 .footerContentContainer {
   display: grid;
   grid-template-columns: 4fr 1fr 1fr;
   padding: 40px 85px 0px 85px;
-  height: 300px;
+}
+
+@media screen and (max-width: 966px) {
+  .footerContentContainer {
+    grid-template-columns: 1fr;
+    align-items: stretch;
+    padding: 0;
+  }
 }
 
 .logoSocialContainer {
@@ -40,6 +57,15 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 40px 85px;
+}
+
+@media screen and (max-width: 966px) {
+  .copyrightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
 }
 
 .copyrightText {
