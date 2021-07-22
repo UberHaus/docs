@@ -113,7 +113,8 @@ h6 {
   color: var(--color-primary-light-turquoise);
 }
 
-h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- {
+h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-,
+docTitle_3a4h {
   color: var(--color-primary-soft-pink);
   text-transform: uppercase;
   font-family: var(--font-family-heading);
@@ -125,10 +126,12 @@ h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- {
 }
 
 @media screen and (min-width: 966px) {
-  h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-:after {
+  h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-:after,
+  h1.docTitle_3a4h:after {
     content: url("/img/docs-decorator.svg");
   }
-  div.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem- {
+  div.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-,
+  div.docItemContainer_33ec {
     padding-left: 5rem;
     padding-right: 5rem;
   }
