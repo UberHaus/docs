@@ -148,7 +148,7 @@ module.exports = {
             },
             {
               label: "Proposal Type",
-              to: "docs/proposal-type",
+              to: "docs/proposal-types",
               position: "right",
             },
             {
