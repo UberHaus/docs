@@ -30,6 +30,7 @@
   justify-content: center;
   align-items: center;
   min-height: 60vh;
+  position: relative;
   background-color: var(--color-primary-soft-pink);
 }
 
@@ -161,7 +162,9 @@
 }
 
 .heroSvgDecorator {
-  margin-top: -65px;
+  /* margin-top: -65px; */
+  position: absolute;
+  bottom: 0;
   z-index: 1;
 }
 
