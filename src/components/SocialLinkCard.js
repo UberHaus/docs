@@ -6,7 +6,7 @@ const SocialLinkCard = ({ name, icon, url }) => {
     <div className={styles.socialLinkCard}>
       <a href={url} className={styles.socialLinkAnchor} target='_blank'>
         {icon}
-        <span className={styles.socialLinkName}>{name}</span>
+        {/* <span className={styles.socialLinkName}>{name}</span> */}
       </a>
     </div>
   );
