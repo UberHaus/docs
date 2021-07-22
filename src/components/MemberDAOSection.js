@@ -13,7 +13,7 @@ const MemberDAOSection = () => {
               className={styles.memberllustration}
             />
           </div>
-          <div className={styles.flexMemberCTA}>
+          <div className={styles.sectionOneFlexMemberCTA}>
             <h2 className={styles.memberCTAHeading}>Become a member DAO</h2>
             <p className={styles.memberCTACopy}>
               If you want to join UberHaus, there are several things you should
@@ -39,7 +39,7 @@ const MemberDAOSection = () => {
         </div>
         <div className={styles.memberSecondContainer}>
           <div className={styles.secondContentGrid}>
-            <div className={styles.flexMemberCTA}>
+            <div className={styles.sectionTwoflexMemberCTA}>
               <h2 className={styles.memberCTAHeading}>Governance Mining</h2>
               <p className={styles.memberCTACopy}>
                 Governance mining is a fairly new concept in the DAO ecosystem,
@@ -60,11 +60,11 @@ const MemberDAOSection = () => {
                 Haus Mining Rules ➔
               </a>
             </div>
-            <div className={styles.memberIllustrationContainer}>
+            <div className={styles.governanceIllustrationContainer}>
               <img
                 src='/img/Illustration_GovMining.jpeg'
                 alt=''
-                className={styles.memberllustration}
+                className={styles.governancellustration}
               />
             </div>
           </div>
