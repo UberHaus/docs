@@ -10,5 +10,5 @@ title: Community Meetings
 
 **How to add to your calendar**
 
-**Google Calendar: **Click here and paste in the URL
+**Google Calendar:** Click here and paste in the URL
 **Other Calendars:** Choose "Add calendar by URL" or similar and paste in the URL
