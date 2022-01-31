@@ -16,12 +16,12 @@ const SocialLinksSection = () => {
         <SocialLinkCard
           name='Twitter'
           icon={<TwitterIcon />}
-          url='https://twitter.com'
+          url='https://twitter.com/nowdaoit'
         />
         <SocialLinkCard
           name='Discord'
           icon={<DiscordIcon />}
-          url='https://discord.gg'
+          url='https://discord.gg/daohaus'
         />
         <SocialLinkCard
           name='GitHub'
@@ -31,7 +31,7 @@ const SocialLinksSection = () => {
         <SocialLinkCard
           name='Substack'
           icon={<SubstackIcon />}
-          url='https://github.com/UberHaus/docs'
+          url='https://daohaus.substack.com/'
         />
         <SocialLinkCard
           name='Telegram'
