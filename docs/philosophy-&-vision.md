@@ -1,6 +1,6 @@
 ---
 title: Manifesto 📜
---- 
+---
 
 For HAUS to be successful, we must defeat Moloch and harness coordination as the 7th element of nature.
 
@@ -20,4 +20,4 @@ We align all Moloch DAOs under a common goal of spreading the good word of decen
 
 And overall, have fun, don’t take ourselves too seriously, respect our deversity.
 
-***If you want to go fast, go alone. If you want to go far, go together.***
+**_If you want to go fast, go alone. If you want to go far, go together._**

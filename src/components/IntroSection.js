@@ -17,7 +17,7 @@ const IntroSection = () => {
               suite of products.
             </p>
             <a
-              href='/docs/philosophy-&-vision.md'
+              href='/docs/philosophy-&-vision'
               className={styles.introCTAButton}
             >
               Read Manifesto ➔

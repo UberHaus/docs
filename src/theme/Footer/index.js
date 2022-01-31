@@ -167,8 +167,8 @@ function Footer() {
       </div>
       <div className={styles.copyrightContainer}>
         <span className={styles.copyrightText}>
-          UberHAUS 2021 • Built by the HausDAO community in partnership with
-          Kolektivo Labs
+          UberHAUS {new Date().getFullYear()} • Built by the HausDAO community
+          in partnership with Kolektivo Labs
         </span>
         <span className={styles.copyrightText}>
           Privacy & Cookies • Terms of Use
