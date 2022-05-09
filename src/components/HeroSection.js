@@ -5,7 +5,8 @@ const HeroSection = () => {
   return (
     <header className={styles.heroSectionContainer}>
       <div className={styles.heroTopContainer}>
-        <h2 className={styles.heroCTAHeading}>The first DAO of DAOs</h2>
+        <h2 className={styles.heroCTAHeading}>Introducing Uberhaus</h2>
+        <h3 className={styles.heroCTAHeadingSmall}>The first DAO of DAOs</h3>
       </div>
       <div className={styles.heroBottomContainer}>
         <div className={styles.heroGrid}>
@@ -15,8 +16,8 @@ const HeroSection = () => {
           <div className={styles.heroCTAFlex}>
             <span className={styles.heroCTACopy}>
               No borders, no passports, only collaboration. UberHAUS is a
-              community of communities that govern the DAOhaus suite of
-              products.
+              community of communities that govern the DAOhaus protocol and 
+              suite of products.
             </span>
             <div className={styles.heroButtonsContainer}>
               <a

@@ -142,6 +142,11 @@ module.exports = {
               position: "right",
             },
             {
+              label: "Onboarding Flow",
+              to: "docs/onboarding-flow",
+              position: "right",
+            },
+            {
               label: "Proposal Flow",
               to: "docs/proposal-flow",
               position: "right",
@@ -149,6 +154,16 @@ module.exports = {
             {
               label: "Proposal Type",
               to: "docs/proposal-types",
+              position: "right",
+            },
+            {
+              label: "Dao Roles",
+              to: "docs/dao-roles",
+              position: "right",
+            },
+            {
+              label: "Ratification Type",
+              to: "docs/ratification-types",
               position: "right",
             },
             {

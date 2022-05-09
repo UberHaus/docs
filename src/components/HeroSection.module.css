@@ -42,6 +42,14 @@
   color: var(--color-primary-soft-pink);
 }
 
+.heroCTAHeadingSmall {
+  font-size: var(--font-size-section-heading-small);
+  font-weight: var(--font-weight-section-heading);
+  line-height: var(--line-height-section-heading);
+  letter-spacing: var(--letter-spacing-section-heading);
+  color: var(--color-primary-soft-pink);
+}
+
 .heroGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
