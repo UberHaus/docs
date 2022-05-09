@@ -10,6 +10,7 @@ import CommunitySection from "../components/CommunitySection";
 import MemberDAOSection from "../components/MemberDAOSection";
 import SocialLinksSection from "../components/SocialLinksSection";
 import HeroSection from "../components/HeroSection";
+import GovSection from "../components/GovSection";
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -19,6 +20,7 @@ export default function Home() {
       <main>
         <HeroSection />
         <IntroSection />
+        <GovSection />
         <CommunitySection />
         <SocialLinksSection />
         <MemberDAOSection />
