@@ -7,6 +7,7 @@ Grants are offered by UberHaus to DAOs for several purposes, some of which are i
 - **Membership Grants** - DAOs can request up to 500 shares in UberHaus to participate in governance
 - **Tech Grant** - Tech grants afford DAOs on the DAOhaus platform up to 500 HAUS to build what they want for DAOhaus
 - **Token Swap** - This grant enables DAOs to swap their DAO’s token for up to 2500 shares in UberHaus, presenting a different kind of value transfer and shared ownership model.
+- **Service/Consultation Grants** - Starting a new DAO? Our team has the most experience in the space, we will conect you with the right people and make sure you get off on the right foot.
  
 ### Is Your DAO Ripe for a Grant? 
  

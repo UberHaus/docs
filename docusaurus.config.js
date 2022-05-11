@@ -167,6 +167,21 @@ module.exports = {
               position: "right",
             },
             {
+              label: "Roadmap",
+              to: "docs/roadmap",
+              position: "right",
+            },
+            {
+              label: "Addresses And Link",
+              to: "docs/addresses-links",
+              position: "right",
+            },
+            {
+              label: "Ratified Policies",
+              to: "docs/ratified-policies",
+              position: "right",
+            },
+            {
               label: "xDAI Setup",
               to: "docs/xdai-setup",
               position: "right",
