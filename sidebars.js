@@ -6,9 +6,9 @@ module.exports = {
       items: [
         'welcome',
 		  	'philosophy-&-vision',
-			  'molochv2',
-			  'uberhaus-members',
-		  	'uberhaus-shares',
+			  'molochv3',
+			  'hausdao-members',
+		  	'hausdao-shares',
         'onboarding-flow',
         'proposal-flow',
         'proposal-types',

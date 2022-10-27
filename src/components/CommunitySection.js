@@ -9,18 +9,9 @@ const CommunitySection = () => {
           <h2 className={styles.communityCTAHeading}>Community meetings.</h2>
           <div className={styles.socialCopyContainer}>
             <p className={styles.socialCopy}>
-              The UberHaus community is a vibrant and large community of DAOs,
-              where currently there are +70 DAOs actively participating in
-              UberHaus governance!
-            </p>
-            <p className={styles.socialCopy}>
-              We meet every{" "}
-              <span className={styles.socialBolderCallout}>
-                3rd Wednesday of the month at 11AM EST (16:00 UTC)
-              </span>{" "}
-              to share updates and discuss proposals. For your DAO to be
-              eligible to receive rewards, your delegate can’t miss more than
-              1/3 of discussions.
+              The Haus DAO community is a vibrant and large community of DAOs,
+              builders, tools and apps.
+              Come to our weekly community rituals.
             </p>
           </div>
         </div>

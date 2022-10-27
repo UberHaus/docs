@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "UberHaus",
-  tagline: "Your #1 Guide to UberHaus DAO",
+  title: "HausDao",
+  tagline: "Your #1 Guide to Haus DAO",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "UberHaus", // Usually your GitHub org/user name.
-  projectName: "UberHaus", // Usually your repo name.
+  organizationName: "HausDao", // Usually your GitHub org/user name.
+  projectName: "HausDao", // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -18,9 +18,9 @@ module.exports = {
     image: "https://daohaus.club/images/daohaus-main.jpg",
     metadatas: [
       { name: "og:type", content: "website" },
-      { name: "og:description", content: "UberHaus" },
-      { name: "og:title", content: "UberHaus" },
-      { name: "og:site_name", content: "UberHaus" },
+      { name: "og:description", content: "HausDAO" },
+      { name: "og:title", content: "HausDAO" },
+      { name: "og:site_name", content: "HausDao" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@nowdaoit" },
       { name: "twitter:title", content: "DAOhaus" },
@@ -36,8 +36,8 @@ module.exports = {
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: "UberHaus DAO Logo",
-        src: "img/uberhaus-logo-extended-white.svg",
+        alt: "HausDao DAO Logo",
+        src: "img/hausdao-logo-extended-white.svg",
       },
       items: [
         {
@@ -51,7 +51,7 @@ module.exports = {
           className: "navbar__discord",
         },
         {
-          to: "https://github.com/UberHaus/docs",
+          to: "https://github.com/HausDao/docs",
           position: "left",
           className: "navbar__github",
         },
@@ -73,7 +73,7 @@ module.exports = {
         },
         {
           to: "/docs/become-a-member",
-          label: "Become a Member DAO",
+          label: "Become a Member",
           position: "right",
         },
         { to: "/docs/welcome/", label: "Docs", position: "right" },
@@ -89,12 +89,12 @@ module.exports = {
     footer: {
       style: "dark",
       logo: {
-        alt: "UberHaus DAO Logo",
-        src: "img/uberhaus-logo-extended-white.svg",
+        alt: "HausDao DAO Logo",
+        src: "img/hausdao-logo-extended-white.svg",
       },
       links: [
         {
-          title: "UberHaus",
+          title: "HausDao",
           items: [
             {
               label: "Manifesto",
@@ -107,13 +107,13 @@ module.exports = {
               position: "right",
             },
             {
-              label: "UberHaus Members",
-              to: "docs/uberhaus-members",
+              label: "HausDao Members",
+              to: "docs/hausdao-members",
               position: "right",
             },
             {
-              label: "UberHaus Shares",
-              to: "docs/uberhaus-shares",
+              label: "HausDao Shares",
+              to: "docs/hausdao-shares",
               position: "right",
             },
             {
@@ -123,7 +123,7 @@ module.exports = {
             },
             {
               label: "Forum",
-              to: "https://forum.daohaus.club/c/uberhaus/58",
+              to: "https://forum.daohaus.club/",
               position: "right",
             },
           ],
@@ -137,8 +137,8 @@ module.exports = {
               position: "right",
             },
             {
-              label: "Moloch V2",
-              to: "docs/molochv2",
+              label: "Moloch V3",
+              to: "docs/molochv3",
               position: "right",
             },
             {
@@ -194,7 +194,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} UberHaus, DAO`,
+      copyright: `Copyright © ${new Date().getFullYear()} HausDao, DAO`,
     },
   },
   presets: [
@@ -204,7 +204,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/UberHaus/docs/blob/main",
+          editUrl: "https://github.com/HausDao/docs/blob/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

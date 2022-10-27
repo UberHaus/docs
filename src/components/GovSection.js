@@ -8,30 +8,10 @@ const GovSection = () => {
         <div className={styles.flexCTA}>
           <div className={styles.contentContainer}>
             <h2 className={styles.govCTAHeading}>
-              A unique 2 body governance system.
+              Governance
             </h2>
             <p className={styles.govCTACopy2}>
-              On chain governance managed by 2 bodies and 
-              harnessing the power of the Daohaus protocol
-            </p>
-            <p className={styles.govCTACopy2}>
-              Permissionless and inclusive without the 
-              downfalls of coin voting.
-            </p>
-            <p className={styles.govCTACopy2}>
-              <strong>Rathaus</strong> anyone can stake to 
-              participate in governance over the prtocol. 
-              On chian membership with gassless voting. 
-              1x governance power for staking a minimum of 1 HAUS, 
-              2x governance power for procviding liquidity 
-              in any of our official pools
-            </p>
-            <p className={styles.govCTACopy2}>
-              <strong>Bundeshaus</strong> Member DAOs can 
-              participate in the DAO Federation. Membership is 
-              fully on chain and permissioned through election. 
-              The resposibilities include ratification 
-              and execution of policies.
+              Coming Soon...
             </p>
             <a
               href='/docs/philosophy-&-vision'
@@ -43,7 +23,7 @@ const GovSection = () => {
         </div>
         <div className={styles.communityIllustrationContainer}>
           <img
-            src='/img/Illustration_Gov.png'
+            src='/img/Illustration_GovMining.jpeg'
             alt=''
             className={styles.communityIllustration}
           />

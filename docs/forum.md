@@ -2,13 +2,11 @@
 title: Forum
 ---
 
-UberHaus has a [Discourse forum](https://forum.daohaus.club/c/uberhaus-1-5/261) for longer form discussion.
+HAUS DAO has a [Discourse forum](https://forum.daohaus.club/) for longer form discussion.
  
 The forum as we mentioned before is the best place to get soft consensus on certain issues.  Some but not all are listed below and they are not limited by the following
-- Membership 
-- Policy changes
-- Funding
-- Guild Kicks
+- objectives
+- bids
 
 Please feel free to add a new topic if it has not been added and use this as a place to instigate open discussions regarding Site Improvements, Operations, contentious issues or whatever you see fit.
  

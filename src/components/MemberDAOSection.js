@@ -14,15 +14,13 @@ const MemberDAOSection = () => {
             />
           </div>
           <div className={styles.sectionOneFlexMemberCTA}>
-            <h2 className={styles.memberCTAHeading}>Become a member DAO</h2>
+            <h2 className={styles.memberCTAHeading}>Become a member</h2>
             <p className={styles.memberCTACopy}>
-              If you want to join UberHaus, there are several things you should
-              do before submitting an official proposal to the DAO. Visit the
-              UberHaus Forum and select “+ New Topic”.
+              If you want to join Haus DAO, you will need to Stake HAUS to 
+              recieve HAUS Shares.
               <br />
               <br />
-              This is where you will want to showcase what your DAO can do for
-              UberHaus.
+              You then can select a delegate or be a delegate for your cause.
             </p>
             <div className={styles.buttonsContainer}>
               <a
@@ -44,14 +42,12 @@ const MemberDAOSection = () => {
               <p className={styles.memberCTACopy}>
                 Governance mining is a fairly new concept in the DAO ecosystem,
                 and it was made possible in UberHaus by allowing the DAO to
-                control HAUS token issuance.
+                control HAUS token issuance and retroactive rewards.
                 <br />
                 <br />
-                Through participating in governance e.g. voting, proposing,
-                debating, and showing up for monthly meetings, a DAO on UberHaus
-                can receive more HAUS! Pretty cool right? If your DAO should
-                leave UberHaus, they’ll leave with more Haus than they started
-                with!
+                Through participating in governance as a delegate e.g. voting, proposing,
+                debating, and showing up for meetings and rituals, a delegate in HAUS DAO
+                can receive more HAUS!
               </p>
               <a
                 href='/docs/governance-mining'
