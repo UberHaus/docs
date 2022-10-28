@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-// this component is swizzled -- code added by the HAUS DAO team based on the original Facebook code
+// this component is swizzled -- code added by the PublicHaus team based on the original Facebook code
 
 import React from "react";
 
@@ -104,7 +104,7 @@ function Footer() {
       </div>
       <div className={styles.copyrightContainer}>
         <span className={styles.copyrightText}>
-          HAUSDAO {new Date().getFullYear()} • Built by the DAOhaus community
+          PublicHaus {new Date().getFullYear()} • Built by the DAOhaus community
           in partnership with Kolektivo Labs
         </span>
         <span className={styles.copyrightText}>

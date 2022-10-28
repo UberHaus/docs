@@ -9,7 +9,7 @@ const CommunitySection = () => {
           <h2 className={styles.communityCTAHeading}>Community meetings.</h2>
           <div className={styles.socialCopyContainer}>
             <p className={styles.socialCopy}>
-              The Haus DAO community is a vibrant and large community of DAOs,
+              The PublicHaus community is a vibrant and large community of DAOs,
               builders, tools and apps.
               Come to our weekly community rituals.
             </p>

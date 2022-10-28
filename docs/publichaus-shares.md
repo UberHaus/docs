@@ -1,5 +1,5 @@
 ---
-title: HAUS DAO Shares
+title: PublicHaus Shares
 ---
  
 Shares and Delegation

@@ -16,7 +16,7 @@ const MemberDAOSection = () => {
           <div className={styles.sectionOneFlexMemberCTA}>
             <h2 className={styles.memberCTAHeading}>Become a member</h2>
             <p className={styles.memberCTACopy}>
-              If you want to join Haus DAO, you will need to Stake HAUS to 
+              If you want to join PublicHaus, you will need to Stake HAUS to 
               recieve HAUS Shares.
               <br />
               <br />
@@ -24,7 +24,7 @@ const MemberDAOSection = () => {
             </p>
             <div className={styles.buttonsContainer}>
               <a
-                href='https://forum.daohaus.club/c/uberhaus/58'
+                href='https://forum.daohaus.club/'
                 className={styles.memberCTAButton}
               >
                 Go to Forum ➔
@@ -41,12 +41,12 @@ const MemberDAOSection = () => {
               <h2 className={styles.memberCTAHeading}>Governance Mining</h2>
               <p className={styles.memberCTACopy}>
                 Governance mining is a fairly new concept in the DAO ecosystem,
-                and it was made possible in UberHaus by allowing the DAO to
+                and it was made possible in PublicHaus by allowing the DAO to
                 control HAUS token issuance and retroactive rewards.
                 <br />
                 <br />
                 Through participating in governance as a delegate e.g. voting, proposing,
-                debating, and showing up for meetings and rituals, a delegate in HAUS DAO
+                debating, and showing up for meetings and rituals, a delegate in PublicHaus
                 can receive more HAUS!
               </p>
               <a

@@ -2,7 +2,7 @@
 title: Forum
 ---
 
-HAUS DAO has a [Discourse forum](https://forum.daohaus.club/) for longer form discussion.
+PublicHaus has a [Discourse forum](https://forum.daohaus.club/) for longer form discussion.
  
 The forum as we mentioned before is the best place to get soft consensus on certain issues.  Some but not all are listed below and they are not limited by the following
 - objectives

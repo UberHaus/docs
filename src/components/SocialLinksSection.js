@@ -26,7 +26,7 @@ const SocialLinksSection = () => {
         <SocialLinkCard
           name='GitHub'
           icon={<GitHubIcon />}
-          url='https://github.com/UberHaus/docs'
+          url='https://github.com/PublicHaus'
         />
         <SocialLinkCard
           name='Substack'
@@ -36,7 +36,7 @@ const SocialLinksSection = () => {
         <SocialLinkCard
           name='Telegram'
           icon={<TelegramIcon />}
-          url='https://github.com/UberHaus/docs'
+          url='https://github.com/PublicHaus'
         />
       </div>
     </section>

@@ -1,14 +1,14 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: "HausDao",
-  tagline: "Your #1 Guide to Haus DAO",
+  title: "PublicHaus",
+  tagline: "Your #1 Guide to PublicHaus",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "HausDao", // Usually your GitHub org/user name.
-  projectName: "HausDao", // Usually your repo name.
+  organizationName: "PublicHaus", // Usually your GitHub org/user name.
+  projectName: "PublicHaus", // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: "dark",
@@ -18,9 +18,9 @@ module.exports = {
     image: "https://daohaus.club/images/daohaus-main.jpg",
     metadatas: [
       { name: "og:type", content: "website" },
-      { name: "og:description", content: "HausDAO" },
-      { name: "og:title", content: "HausDAO" },
-      { name: "og:site_name", content: "HausDao" },
+      { name: "og:description", content: "PublicHaus" },
+      { name: "og:title", content: "PublicHaus" },
+      { name: "og:site_name", content: "PublicHaus" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@nowdaoit" },
       { name: "twitter:title", content: "DAOhaus" },
@@ -36,8 +36,8 @@ module.exports = {
     navbar: {
       hideOnScroll: true,
       logo: {
-        alt: "HausDao DAO Logo",
-        src: "img/hausdao-logo-extended-white.svg",
+        alt: "PublicHaus DAO Logo",
+        src: "img/publichaus-logo-extended-white.svg",
       },
       items: [
         {
@@ -51,7 +51,7 @@ module.exports = {
           className: "navbar__discord",
         },
         {
-          to: "https://github.com/HausDao/docs",
+          to: "https://github.com/PublicHaus/docs",
           position: "left",
           className: "navbar__github",
         },
@@ -89,12 +89,12 @@ module.exports = {
     footer: {
       style: "dark",
       logo: {
-        alt: "HausDao DAO Logo",
-        src: "img/hausdao-logo-extended-white.svg",
+        alt: "PublicHaus DAO Logo",
+        src: "img/publichaus-logo-extended-white.svg",
       },
       links: [
         {
-          title: "HausDao",
+          title: "PublicHaus",
           items: [
             {
               label: "Manifesto",
@@ -107,13 +107,13 @@ module.exports = {
               position: "right",
             },
             {
-              label: "HausDao Members",
-              to: "docs/hausdao-members",
+              label: "PublicHaus Members",
+              to: "docs/publichaus-members",
               position: "right",
             },
             {
-              label: "HausDao Shares",
-              to: "docs/hausdao-shares",
+              label: "PublicHaus Shares",
+              to: "docs/publichaus-shares",
               position: "right",
             },
             {
@@ -194,7 +194,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} HausDao, DAO`,
+      copyright: `Copyright © ${new Date().getFullYear()} PublicHaus, DAO`,
     },
   },
   presets: [
@@ -204,7 +204,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/HausDao/docs/blob/main",
+          editUrl: "https://github.com/PublicHaus/docs/blob/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <header className={styles.heroSectionContainer}>
       <div className={styles.heroTopContainer}>
-        <h2 className={styles.heroCTAHeading}>Introducing HAUS DAO</h2>
+        <h2 className={styles.heroCTAHeading}>Introducing Public HAUS</h2>
         <h3 className={styles.heroCTAHeadingSmall}>The DAOhaus ecosystem protocol DAO</h3>
       </div>
       <div className={styles.heroBottomContainer}>
@@ -15,7 +15,7 @@ const HeroSection = () => {
           </div>
           <div className={styles.heroCTAFlex}>
             <span className={styles.heroCTACopy}>
-              No borders, no passports, only collaboration. HAUS DAO is a
+              No borders, no passports, only collaboration. PublicHaus is a
               community of HAUS holders that govern the DAOhaus protocol and 
               suite of open products and tools.
             </span>

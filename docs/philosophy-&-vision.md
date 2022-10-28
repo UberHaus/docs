@@ -6,9 +6,9 @@ For HAUS to be successful, we must defeat Moloch and harness coordination as the
 
 This network of DAOs, bound through a token, shall become a nation of community-centric orginizations. No borders, no passports, only collaboration. This community of communities now owns the DAOhaus suite of products.
 
-With this document, we declare that HAUS DAO, the first hub in in the MetaNation, supports this new ecosystem of human-centric communities. HAUS DAO is oriented towards supporting the collective goals of those communities, while honoring the sovereignty of each DAO and member seeking to engage in positive-sum interactions.
+With this document, we declare that PublicHaus, the first hub in in the MetaNation, supports this new ecosystem of human-centric communities. PublicHaus is oriented towards supporting the collective goals of those communities, while honoring the sovereignty of each DAO and member seeking to engage in positive-sum interactions.
 
-HAUS DAO will be used to govern a piece of the new community-driven economy.
+PublicHaus will be used to govern a piece of the new community-driven economy.
 
 There will be many more hubs in the future. We do not aspire or want to be the only hub. Traditional investors and Web 2.0 pushes organizations to monopolize. We have value in our own communities, and value in our diversity. With Web 3.0, we’ve seen that projects can be ‘The Many’ and let the value flow between participants. Free flow of value between our network and our members is the first step to decentralized freedom. Moloch will try to restrict and try to block that flow, but together, defeating Moloch is the goal.
 

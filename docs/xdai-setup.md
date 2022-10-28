@@ -4,7 +4,7 @@ title: xDAI Setup
 
 ### Summon Your DAO on xDAI
 
-HAUS lives on xDAI, which means if you want to participate in HAUS DAO governance, it will have to be summoned or cloned onto the xDAI network.  
+HAUS lives on xDAI, which means if you want to participate in PublicHaus governance, it will have to be summoned or cloned onto the xDAI network.  
  
 HAUS selected xDAI for its low transaction costs and its robust network as an Ethereum side-chain.  
  
