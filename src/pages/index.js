@@ -11,19 +11,21 @@ import MemberDAOSection from "../components/MemberDAOSection";
 import SocialLinksSection from "../components/SocialLinksSection";
 import HeroSection from "../components/HeroSection";
 import GovSection from "../components/GovSection";
+import DetailsSection from "../components/DetailsSection";
 
 export default function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout title={`${siteConfig.title}`} description='A HAUS for your DAO.'>
+    <Layout title={`${siteConfig.title}`} description="A HAUS for your DAO.">
       <main>
         <HeroSection />
-        <IntroSection />
+        {/* <IntroSection /> */}
         <GovSection />
-        <CommunitySection />
+        <DetailsSection />
+        {/* <CommunitySection />
         <SocialLinksSection />
-        <MemberDAOSection />
+        <MemberDAOSection /> */}
       </main>
     </Layout>
   );

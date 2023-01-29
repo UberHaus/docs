@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 0px 143px 0px 153px;
-  background-color: var(--color-primary-blackish);
+  background-color: #EEF1FD;
 }
 
 @media screen and (max-width: 966px) {
@@ -54,7 +54,7 @@
   font-weight: var(--font-weight-section-heading);
   line-height: var(--line-height-section-heading);
   letter-spacing: var(--letter-spacing-section-heading);
-  color: var(--color-primary-white);
+  color: var(--c);/* var(--color-primary-white); */
 }
 
 @media screen and (max-width: 966px) {
@@ -71,7 +71,7 @@
   font-size: var(--font-size-section-copy);
   font-weight: var(--font-weight-section-copy);
   line-height: var(--line-height-section-copy);
-  color: var(--color-primary-white);
+  color: var(--c);
 }
 
 @media screen and (max-width: 966px) {
