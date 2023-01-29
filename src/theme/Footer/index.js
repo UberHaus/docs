@@ -28,7 +28,7 @@ function FooterLink({ to, href, label, prependBaseUrlToHref, ...props }) {
   });
   return (
     <Link
-      className='footer__link-item'
+      className="footer__link-item"
       {...(href
         ? {
             href: prependBaseUrlToHref ? normalizedHref : href,
@@ -55,8 +55,7 @@ function Footer() {
     <footer className={styles.footerContainer}>
       <div className={styles.footerContentContainer}>
         <div className={styles.logoSocialContainer}>
-        <img src='/img/footer-logo.svg' alt='' />
-
+          <h4>Public Haus</h4>
           <div className={styles.socialLinksContainer}>
             <FooterTwitterIcon />
             <FooterDiscordIcon />
@@ -68,14 +67,14 @@ function Footer() {
         {links && links.length > 0 && (
           <>
             {links.map((linkItem, i) => (
-              <div key={i} className='col footer__col'>
+              <div key={i} className="col footer__col">
                 {linkItem.title != null ? (
                   <h3 className={styles.footerNavTitle}>{linkItem.title}</h3>
                 ) : null}
                 {linkItem.items != null &&
                 Array.isArray(linkItem.items) &&
                 linkItem.items.length > 0 ? (
-                  <ul className='footer__items'>
+                  <ul className="footer__items">
                     {linkItem.items.map((item, key) =>
                       item.html ? (
                         <li
@@ -104,12 +103,9 @@ function Footer() {
       </div>
       <div className={styles.copyrightContainer}>
         <span className={styles.copyrightText}>
-          PublicHaus {new Date().getFullYear()} • Built by the DAOhaus community
-          in partnership with Kolektivo Labs
+          PublicHaus {new Date().getFullYear()}
         </span>
-        <span className={styles.copyrightText}>
-          Privacy & Cookies • Terms of Use
-        </span>
+        <span className={styles.copyrightText}></span>
       </div>
     </footer>
   );

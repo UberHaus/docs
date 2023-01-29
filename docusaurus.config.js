@@ -71,16 +71,10 @@ module.exports = {
           label: "Manifesto",
           position: "right",
         },
-        {
-          to: "/docs/become-a-member",
-          label: "Become a Member",
-          position: "right",
-        },
         { to: "/docs/welcome/", label: "Docs", position: "right" },
         {
-          to:
-            "https://app.daohaus.club/dao/0x64/0x4bec8e49aa44bb520bd5e29d6358e22464b5eb68",
-          label: "Launch App ➔",
+          to: "https://join.daohaus.fun",
+          label: "Join ➔",
           position: "right",
           className: "navbar__launch__app",
         },

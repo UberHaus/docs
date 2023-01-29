@@ -8,8 +8,11 @@
 /* This component code has been swizzled and extended by PublicHaus */
 
 .footerContainer {
-  margin: 0 75px 75px 75px;
-  background: var(--color-darker-grey);
+  --c: #1400FF;
+  --bg: #EEF1FD;
+  --b: 4px solid var(--c);
+  --p: 1rem;
+  background: var(--c);
 }
 
 @media screen and (max-width: 966px) {
