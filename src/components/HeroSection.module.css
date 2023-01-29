@@ -120,8 +120,8 @@
 }
 
 .heroCTAButton {
-  background-color: var(--color-primary-blackish);
-  color: var(--color-primary-white);
+  background-color: var(--c);
+  color: var(--bg);
   padding: 15px 35px;
   font-size: 18px;
   font-weight: 700;

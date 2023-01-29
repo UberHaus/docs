@@ -10,7 +10,6 @@
   align-items: center;
   padding: 100px 143px 96px 153px;
   background-color: var(--bg);
-  
 }
 
 .box {
@@ -25,7 +24,9 @@
 .box h5 {margin: 0;}
 
 .stack {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
+  padding: 25px; 
   display: flex;
   flex-direction: column;
 }

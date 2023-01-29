@@ -64,6 +64,8 @@
   --font-size-section-copy: 16px;
   --font-weight-section-copy: 500;
   --line-height-section-copy: 24px;
+  --c: #1400FF;
+  --bg: #EEF1FD;
 }
 
 html {
@@ -73,7 +75,7 @@ html {
 }
 body,
 .main-wrapper {
-  background-color: var(--color-primary-blackish);
+  background-color: var(--c);
   font-family: var(--font-family-body), sans-serif;
 }
 
@@ -94,7 +96,7 @@ h6 {
 }
 
 .navbar {
-  background: var(--color-primary-blackish);
+  background: var(--c);
   display: flex;
 }
 

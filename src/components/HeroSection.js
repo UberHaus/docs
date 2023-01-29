@@ -10,7 +10,14 @@ const HeroSection = () => {
           The DAOhaus ecosystem protocol DAO
         </h3>
         <p>DAOhaus is a public good and you should help govern it.</p>
-        <p>:)</p>
+        <a
+          href="https://join.daohaus.fun"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.heroCTAButton}
+        >
+          Get Started
+        </a>
       </div>
     </header>
   );

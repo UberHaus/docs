@@ -18,7 +18,7 @@ h3 { font-size: 32px;}
   align-items: center;
   min-height: 40vh;
   color: var(--c);
-  /* padding: 0px 75px 96px 75px; */
+  padding: 75px;
   max-width: 1200px;
 }
 
@@ -164,8 +164,8 @@ h3 { font-size: 32px;}
 }
 
 .heroCTAButton {
-  background-color: var(--color-primary-blackish);
-  color: var(--color-primary-white);
+  background-color: var(--c);
+  color: var(--bg);
   padding: 15px 35px;
   font-size: 18px;
   font-weight: 700;
@@ -179,7 +179,7 @@ h3 { font-size: 32px;}
 }
 
 .heroCTAButton:hover {
-  color: var(--color-primary-light-turquoise);
+  color: white;
   text-decoration: none;
 }
 
