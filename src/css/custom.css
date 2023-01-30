@@ -125,14 +125,9 @@ h1.docTitle_3a4h {
   font-weight: var(--font-weight-oversize-heading);
   line-height: var(--line-height-oversize-heading);
   letter-spacing: -3%;
-  max-width: 10ch;
 }
 
 @media screen and (min-width: 966px) {
-  h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-:after,
-  h1.docTitle_3a4h:after {
-    content: url("/img/docs-decorator.svg");
-  }
   div.docItemContainer_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-,
   div.docItemContainer_33ec {
     padding-left: 5rem;
