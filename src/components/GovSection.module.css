@@ -1,8 +1,8 @@
 
 .govContainer {
-  --c: #FFB224 /*#1400FF*/;
-  --bg: #171718 ;
-  --b: 2px solid var(--c);
+  --c:  #001ED2 /*#1400FF*/;
+  --bg: #EEF1FD;
+  --b: 3px solid var(--c);
   --p: 1rem;
   display: flex;
   flex-direction: row;
