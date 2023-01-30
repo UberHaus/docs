@@ -119,6 +119,16 @@ module.exports = {
               label: "Addresses And Link",
               to: "docs/addresses-links",
               position: "right",
+            },
+            {
+              label: "Champions",
+              to: "docs/champions",
+              position: "right",
+            },
+            {
+              label: "Populus",
+              to: "docs/populus",
+              position: "right",
             }
           ],
         },
