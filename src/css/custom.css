@@ -65,7 +65,8 @@
   --font-weight-section-copy: 500;
   --line-height-section-copy: 24px;
   --c: #171718;
-  --bg: #FFB224;
+  --cd:  #001ED2 /*#1400FF*/;
+  --bg: #EEF1FD;
 }
 
 html {
@@ -96,7 +97,7 @@ h6 {
 }
 
 .navbar {
-  background: var(--c);
+  background: var(--cd);
   display: flex;
 }
 

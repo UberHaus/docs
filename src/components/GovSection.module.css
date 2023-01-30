@@ -31,7 +31,7 @@
   flex-direction: column;
 }
 
-h2, h5 {
+.govContainer h2, .govContainer h5 {
   color: var(--c);
 }
 

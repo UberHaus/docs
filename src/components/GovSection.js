@@ -5,6 +5,15 @@ const GovSection = () => {
   return (
     <section className={styles.govContainer}>
       <div className={styles.stack}>
+        <h2
+          style={{
+            fontSize: "42px",
+            textAlign: "center",
+            marginBottom: "50px",
+          }}
+        >
+          Overview
+        </h2>
         <div className={styles.item1}>
           <div className={styles.item2}>
             <div className={styles.columnn}>
