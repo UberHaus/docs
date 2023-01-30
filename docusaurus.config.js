@@ -96,28 +96,8 @@ module.exports = {
               position: "right",
             },
             {
-              label: "Become a Member",
-              to: "docs/become-a-member",
-              position: "right",
-            },
-            {
-              label: "PublicHaus Members",
-              to: "docs/publichaus-members",
-              position: "right",
-            },
-            {
-              label: "PublicHaus Shares",
-              to: "docs/publichaus-shares",
-              position: "right",
-            },
-            {
               label: "Community",
               to: "docs/community",
-              position: "right",
-            },
-            {
-              label: "Forum",
-              to: "https://forum.daohaus.club/",
               position: "right",
             },
           ],
@@ -126,38 +106,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Governance Mining",
-              to: "docs/governance-mining",
-              position: "right",
-            },
-            {
-              label: "Moloch V3",
-              to: "docs/molochv3",
-              position: "right",
-            },
-            {
-              label: "Onboarding Flow",
+              label: "Onboarding",
               to: "docs/onboarding-flow",
-              position: "right",
-            },
-            {
-              label: "Proposal Flow",
-              to: "docs/proposal-flow",
-              position: "right",
-            },
-            {
-              label: "Proposal Type",
-              to: "docs/proposal-types",
-              position: "right",
-            },
-            {
-              label: "Dao Roles",
-              to: "docs/dao-roles",
-              position: "right",
-            },
-            {
-              label: "Ratification Type",
-              to: "docs/ratification-types",
               position: "right",
             },
             {
@@ -171,20 +121,15 @@ module.exports = {
               position: "right",
             },
             {
-              label: "Ratified Policies",
-              to: "docs/ratified-policies",
+              label: "Champions",
+              to: "docs/champions",
               position: "right",
             },
             {
-              label: "xDAI Setup",
-              to: "docs/xdai-setup",
+              label: "Populus",
+              to: "docs/populus",
               position: "right",
-            },
-            {
-              label: "Grants",
-              to: "docs/grants",
-              position: "right",
-            },
+            }
           ],
         },
       ],
