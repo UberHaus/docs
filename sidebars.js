@@ -7,6 +7,8 @@ module.exports = {
         'welcome',
 		  	'philosophy-&-vision',
         'onboarding-flow',
+        'champions',
+        'populus',
         'roadmap',
         'addresses-links',
         'socials-media'
