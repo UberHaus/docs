@@ -129,6 +129,21 @@ module.exports = {
               label: "Populus",
               to: "docs/populus",
               position: "right",
+            },
+            {
+              label: "Haus",
+              to: "docs/haus",
+              position: "right",
+            },
+            {
+              label: "Strategic Signaling",
+              to: "docs/strategic-signaling",
+              position: "right",
+            },
+            {
+              label: "Tactical Execution",
+              to: "docs/tactical-execution",
+              position: "right",
             }
           ],
         },

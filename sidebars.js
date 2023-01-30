@@ -1,15 +1,39 @@
 module.exports = {
   docs: [
+    'welcome',
+    'philosophy-&-vision',
     {
       type: 'category',
-      label: 'Overview',
+      label: 'Getting Started',
+      collapsed: false,
       items: [
-        'welcome',
-		  	'philosophy-&-vision',
         'onboarding-flow',
+        'haus',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Roles',
+      collapsed: false,
+      items: [
         'champions',
         'populus',
-        'roadmap',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Mechanics',
+      collapsed: false,
+      items: [
+        'strategic-signaling',
+        'tactical-execution'
+      ],
+    },
+    'roadmap',
+    {
+      type: 'category',
+      label: 'Links',
+      items: [
         'addresses-links',
         'socials-media'
       ],
