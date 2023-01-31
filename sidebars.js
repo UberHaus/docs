@@ -1,43 +1,36 @@
 module.exports = {
   docs: [
-    'welcome',
-    'philosophy-&-vision',
+    "welcome",
+    "philosophy-&-vision",
     {
-      type: 'category',
-      label: 'Getting Started',
+      type: "category",
+      label: "Getting Started",
       collapsed: false,
       items: [
-        'onboarding-flow',
-        'haus',
+        "becoming-a-citizen",
+        "ascending-to-champion",
+        "sponsoring-a-champion",
+        "signaling-objectives",
+        "giving-receiving-rewards",
       ],
     },
     {
-      type: 'category',
-      label: 'Roles',
+      type: "category",
+      label: "Roles",
       collapsed: false,
-      items: [
-        'champions',
-        'populus',
-      ],
+      items: ["champions", "populus"],
     },
     {
-      type: 'category',
-      label: 'Mechanics',
+      type: "category",
+      label: "Mechanics",
       collapsed: false,
-      items: [
-        'strategic-signaling',
-        'tactical-execution'
-      ],
+      items: ["strategic-signaling", "tactical-execution"],
     },
-    'roadmap',
+    "roadmap",
     {
-      type: 'category',
-      label: 'Links',
-      items: [
-        'addresses-links',
-        'socials-media'
-      ],
+      type: "category",
+      label: "Links",
+      items: ["addresses-links", "socials-media"],
     },
   ],
 };
-
