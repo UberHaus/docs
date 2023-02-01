@@ -106,8 +106,33 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Onboarding",
-              to: "docs/onboarding-flow",
+              label: "Becoming a Citizen",
+              to: "docs/becoming-a-citizen",
+              position: "right",
+            },
+            {
+              label: "Ascending to Champion Status",
+              to: "docs/ascending-to-champion",
+              position: "right",
+            },
+            {
+              label: "Sponsoring a Champion",
+              to: "docs/sponsoring-a-champion",
+              position: "right",
+            },
+            {
+              label: "Signaling Objectives",
+              to: "docs/signaling-objectives",
+              position: "right",
+            },
+            {
+              label: "Giving and Receiving Rewards",
+              to: "docs/giving-receiving-rewards",
+              position: "right",
+            },
+            {
+              label: "Receiving Rewards",
+              to: "docs/receiving-rewards",
               position: "right",
             },
             {
@@ -135,6 +160,7 @@ module.exports = {
               to: "docs/haus",
               position: "right",
             },
+
             {
               label: "Strategic Signaling",
               to: "docs/strategic-signaling",
@@ -144,7 +170,7 @@ module.exports = {
               label: "Tactical Execution",
               to: "docs/tactical-execution",
               position: "right",
-            }
+            },
           ],
         },
       ],
