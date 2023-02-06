@@ -171,6 +171,11 @@ module.exports = {
               to: "docs/tactical-execution",
               position: "right",
             },
+            {
+              label: "Meta Governance",
+              to: "docs/meta-governance",
+              position: "right",
+            },
           ],
         },
       ],

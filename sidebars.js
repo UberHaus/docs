@@ -26,6 +26,7 @@ module.exports = {
       collapsed: false,
       items: ["strategic-signaling", "tactical-execution"],
     },
+    "meta-governance",
     "roadmap",
     {
       type: "category",
