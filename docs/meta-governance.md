@@ -2,14 +2,15 @@
 title: Meta-Governance
 ---
 
+## Overview
 In an attempt to foster participation of all members of the DAO we have introduced the idea of meta-governance. This is through the separation and distinction of the roles of active members of the DAO. 
 
 The 2 primary roles in the DAO are Champions and the general populace.
 
-## Champions
-see more about Delegation and CHampionship [here]("/docs/champions")
+### Champions
+see more about Delegation and Championship [here]("/docs/champions")
 
-## Greater DAO populace
+### Citizen of Greater DAO Populace
 see more about Delegation and CHampionship [here]("/docs/populus")
 
 ## Meta-Governance
