@@ -16,6 +16,9 @@ To receive governance and signaling rights it requires staking HAUS for PUB in P
 - Ens:
 - Ipfs:
 
+### How can I get HAUS?
+
+Still the best way to get HAUS is to add value to the community and get rewarded in the retroactive signaling rounds.
 
 ### What can I do with HAUS and PublicHAUS PUB?
 
