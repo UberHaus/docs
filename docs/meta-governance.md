@@ -8,10 +8,10 @@ In an attempt to foster participation of all members of the DAO we have introduc
 The 2 primary roles in the DAO are Champions and the general populace.
 
 ### Champions
-see more about Delegation and Championship [here]("/docs/champions")
+see more about Delegation and Championship [here](champions)
 
 ### Citizen of Greater DAO Populace
-see more about Delegation and CHampionship [here]("/docs/populus")
+see more about Delegation and CHampionship [here](populus)
 
 ## Meta-Governance
 Meta-governance is about experimentation, flexibility and more participation. The initial mechanics we will be testing with is in setting highlevel objectives and conversely in recognizing accomplishments through retroactive rewards. There are many other potential meta-governance exercises we can experiment with and the processes will iterate over time 
