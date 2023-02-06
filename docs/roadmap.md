@@ -2,22 +2,22 @@
 title: PublicHAUS launch Roadmap
 ---
 
-## Ascension phase 1 month (Feb-Mar)
+### Ascension phase 1 month (Feb-Mar)
 
 - [x] Congregation of Champions
 - [ ] Speedrun
-    a. [x] Strategize
-    b. [ ] Evaluate
+    - [x] Strategize
+    - [ ] Evaluate
 - [x] Early staking (100 haus max)
 
-## Diversification 2 month (Mar-May)
+### Diversification 2 month (Mar-May)
 
 - [ ] 1 month open staking
 - [ ] CC0 migration
 - [ ] Strategize
 - [ ] Evaluate
 
-## Open Bazaar cont. 3 month cadence
+### Open Bazaar 3 month cadence
 
 - [ ] Strategize
 - [ ] * Uberhaus/Warcamp asset migration
@@ -27,7 +27,7 @@ title: PublicHAUS launch Roadmap
 - [ ] Staking strategy open to DAO
 
 
-### *Uberhaus/Warcamp migration
+#### *Uberhaus/Warcamp migration
 
 Uberhaus
 - Assets
