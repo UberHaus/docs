@@ -8,6 +8,7 @@ title: PublicHAUS launch Roadmap
 - [ ] Speedrun
     - [x] Strategize
     - [ ] Evaluate
+    - [ ] Open Bazaar Party  🎉
 - [x] Early staking (100 haus max)
 
 ### Diversification 2 month (Mar-May)
@@ -16,6 +17,7 @@ title: PublicHAUS launch Roadmap
 - [ ] CC0 migration
 - [ ] Strategize
 - [ ] Evaluate
+- [ ] Open Bazaar Party  🎉
 
 ### Open Bazaar 3 month cadence
 
@@ -24,6 +26,7 @@ title: PublicHAUS launch Roadmap
 - [ ] LPDAO finish
 - [ ] Referral program (TBD)
 - [ ] Evaluate
+- [ ] Open Bazaar Party  🎉
 - [ ] Staking strategy open to DAO
 
 
