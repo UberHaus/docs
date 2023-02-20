@@ -24,10 +24,14 @@ module.exports = {
       type: "category",
       label: "Mechanics",
       collapsed: false,
-      items: ["strategic-signaling", "tactical-execution"],
+      items: [
+        "strategic-signaling",
+        "tactical-execution",
+        "meta-governance",
+        "roadmap",
+      ],
     },
-    "meta-governance",
-    "roadmap",
+
     {
       type: "category",
       label: "Links",

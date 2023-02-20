@@ -51,7 +51,3 @@ title: Philosophy & Vision 📜
 - [IPFS](https://ipfs.io/ipfs/QmS3KKyqirVBEjnd3Q8TbSqQHTP2fYur6qWb9JR9Fa2ffD)
 - [Mirror](https://daohaus.mirror.xyz/0NEWxKEKAhR2lDpSaG9aTPTv0Xwo1uynTetajbvurnw)
 - [Github](https://github.com/HausDAO/manifesto)
-
-
-
-
