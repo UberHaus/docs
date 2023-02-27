@@ -26,3 +26,5 @@ title: Ascending to Champion
 1. **Click "Submit"**, verify your transaction and wait for the DAO to vote.
 
 #### Your proposal is now live and will be reviewed by the DAO membership.
+
+---

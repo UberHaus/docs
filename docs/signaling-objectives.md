@@ -30,12 +30,17 @@ title: Participate in Strategic Signalling Sessions
 
 ### To Signal on an existing HILO, follow these steps:
 
-1. **Claim** your shares by pressing the orange Claim button in the top right.
+1. **Claim** your shares by pressing the Claim Button in the top right.
+
    - This gives you a balance of "PUB Points" equal to your current PUB Balance.
-   - PUB Points are used to vote on HILOs
+   - These PUB Points can be used to vote on this signaling event
+     <img src="/img/claim-button.png" alt="quickstart-summon" />
+
 1. **Allocate** your PUB Points to the various HILO by typing values into the appropriate fields.
-1. **Authorize** the transaction
+1. **Finalize** and **Authorize** the transaction
 
 > **Tip:** Make sure you are confident in your allocations before you authorize the transaction. You can change your allocations, but you'll have to pay gas again.
 
 #### Congrats, you've helped decide PublicHAUS' direction for the next quarter!
+
+---

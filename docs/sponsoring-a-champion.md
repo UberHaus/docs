@@ -22,3 +22,5 @@ title: Sponsoring a Champion
 1. **Authorize** the transaction.
 
 #### Congrats! You've sponsored a Champion!
+
+---

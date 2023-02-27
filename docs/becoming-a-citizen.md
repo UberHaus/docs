@@ -28,3 +28,5 @@ All citizens have 2 things in common:
    - click "Stake HAUS"
 
 #### Congratulations, you're now a PublicHAUS Citizen and ready to help direct the future of the DAOhaus Protocol!
+
+---

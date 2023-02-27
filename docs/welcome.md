@@ -10,7 +10,7 @@ title: Welcome
 
 ### What is PublicHaus?
 
-PublicHAUS is the governing framework of the DAOhaus ecosystem and protocol
+PublicHAUS is the governing framework of the DAOhaus ecosystem and protocol.
 
 ### Who is PublicHaus?
 
@@ -18,7 +18,8 @@ All DAOhaus contributors, supporters and enthusiasts are welcome to join PublicH
 
 ### The Goal is to Build our HAUS
 
-We are unified and moving toward a better future using Decentralized Digital Coordination.
+- We use decentralized digital coordination aided by Moloch DAO contracts and the DAOhaus SDK.
+- We work together to manage this framework so we can all move toward a decentralized, autonomous future.
 
 ### High Level Framework Goals
 
