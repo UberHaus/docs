@@ -27,12 +27,12 @@
 }
 
 :root {
-  --color-primary-white: #ffffff;
+  --color-primary-white: #fed;
   --color-primary-blackish: #171212;
   --color-primary-deep-red: #c32228;
-  --color-primary-soft-pink: #ffdcd1;
+  --color-primary-soft-pink: #fed;
   --color-primary-light-turquoise: #00b2a2;
-  --color-secondary-bright-red: #e94444;
+  --color-secondary-bright-red: #c32228;
   --color-secondary-deep-turquoise: #007a70;
   --color-secondary-dirty-grey: #a89d9d;
   --color-secondary-beige: #f6f1ef;
@@ -64,8 +64,10 @@
   --font-size-section-copy: 16px;
   --font-weight-section-copy: 500;
   --line-height-section-copy: 24px;
-  --c: #171718;
-  --cd:  #001ED2 /*#1400FF*/;
+  --c: #070755;
+  --cd:  #223Fee /*#1400FF*/;
+  --first-link: #f5a623;
+  --second-link: #61c1f4;
   --bg: #EEF1FD;
 }
 
@@ -76,6 +78,7 @@ html {
 }
 body,
 .main-wrapper {
+  margin-top: 14px;
   background-color: var(--c);
   font-family: var(--font-family-body), sans-serif;
   font-size: 1.05em;
@@ -115,11 +118,12 @@ h4 {
 }
 
 .menu__link.menu__link--sublist.menu__link--active {
-  color: var(--color-secondary-bright-red);
+  font-weight: 700;
+  color: var(--second-link);
 }
 
 .menu__link.menu__link--active.active {
-  color: var(--color-primary-light-turquoise);
+  color: var(--second-link);
 }
 
 h1.docTitle_node_modules-\@docusaurus-theme-classic-lib-next-theme-DocItem-,
@@ -167,7 +171,7 @@ div.padding-vert--lg {
 }
 
 a.hash-link {
-  color: var(--color-primary-light-turquoise);
+  color: var(--second-link);
 }
 
 .navbar.navbar--fixed-top {

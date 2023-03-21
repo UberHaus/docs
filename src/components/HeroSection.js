@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <header className={styles.mainHeroSectionContainer}>
       <div className={styles.heroContainer}>
-        <h2 className={styles.heroCTAHeading}>Public Haus</h2>
+        <h2 className={styles.heroCTAHeading}>PublicHAUS</h2>
         <h3 className={styles.heroCTAHeadingSmall}>
           The DAOhaus ecosystem protocol DAO
         </h3>
@@ -20,7 +20,7 @@ const HeroSection = () => {
             Join
           </a>
           <a
-            href="https://publichaus.club/docs/welcome"
+            href="/docs/welcome"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.heroSecondaryButton}

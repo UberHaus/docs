@@ -1,5 +1,5 @@
 ---
-title: PublicHaus Shares
+title: PublicHAUS Shares
 ---
- 
+
 Shares and Delegation

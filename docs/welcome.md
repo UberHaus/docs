@@ -4,15 +4,15 @@ title: Welcome
 
 #### Hello and Welcome!
 
-#### Thank you for finding your way to the PublicHaus docs.
+#### Thank you for finding your way to the PublicHAUS docs.
 
 > _These docs are always a WIP, feel free to edit and make pull requests to fix or update content_
 
-### What is PublicHaus?
+### What is PublicHAUS?
 
 PublicHAUS is the governing framework of the DAOhaus ecosystem and protocol.
 
-### Who is PublicHaus?
+### Who is PublicHAUS?
 
 All DAOhaus contributors, supporters and enthusiasts are welcome to join PublicHAUS.
 

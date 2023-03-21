@@ -13,6 +13,7 @@ import Link from "@docusaurus/Link";
 import { useThemeConfig } from "@docusaurus/theme-common";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
+import SocialLinkCard from "../../components/SocialLinkCard";
 import {
   FooterTwitterIcon,
   FooterDiscordIcon,
@@ -55,13 +56,28 @@ function Footer() {
     <footer className={styles.footerContainer}>
       <div className={styles.footerContentContainer}>
         <div className={styles.logoSocialContainer}>
-          <h4>Public Haus</h4>
+          <h4>PublicHAUS</h4>
           <div className={styles.socialLinksContainer}>
-            <FooterTwitterIcon />
-            <FooterDiscordIcon />
-            <FooterGitHubIcon />
-            <FooterSubstackIcon />
-            <FooterTelegramIcon />
+            <SocialLinkCard
+              name="Twitter"
+              icon={<FooterTwitterIcon />}
+              url="https://twitter.com/nowdaoit"
+            />
+            <SocialLinkCard
+              name="Discord"
+              icon={<FooterDiscordIcon />}
+              url="https://discord.gg/daohaus"
+            />
+            <SocialLinkCard
+              name="GitHub"
+              icon={<FooterGitHubIcon />}
+              url="https://github.com/PublicHaus"
+            />
+            <SocialLinkCard
+              name="Substack"
+              icon={<FooterSubstackIcon />}
+              url="https://daohaus.substack.com/"
+            />
           </div>
         </div>
         {links && links.length > 0 && (
@@ -103,7 +119,7 @@ function Footer() {
       </div>
       <div className={styles.copyrightContainer}>
         <span className={styles.copyrightText}>
-          PublicHaus {new Date().getFullYear()}
+          PublicHAUS {new Date().getFullYear()}
         </span>
         <span className={styles.copyrightText}></span>
       </div>

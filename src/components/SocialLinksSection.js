@@ -14,29 +14,29 @@ const SocialLinksSection = () => {
     <section className={styles.socialLinksContainer}>
       <div className={styles.flexSocialLinks}>
         <SocialLinkCard
-          name='Twitter'
+          name="Twitter"
           icon={<TwitterIcon />}
-          url='https://twitter.com/nowdaoit'
+          url="https://twitter.com/nowdaoit"
         />
         <SocialLinkCard
-          name='Discord'
+          name="Discord"
           icon={<DiscordIcon />}
-          url='https://discord.gg/daohaus'
+          url="https://discord.gg/daohaus"
         />
         <SocialLinkCard
-          name='GitHub'
+          name="GitHub"
           icon={<GitHubIcon />}
-          url='https://github.com/PublicHaus'
+          url="https://github.com/PublicHaus"
         />
         <SocialLinkCard
-          name='Substack'
+          name="Substack"
           icon={<SubstackIcon />}
-          url='https://daohaus.substack.com/'
+          url="https://daohaus.substack.coma/"
         />
         <SocialLinkCard
-          name='Telegram'
+          name="Telegram"
           icon={<TelegramIcon />}
-          url='https://github.com/PublicHaus'
+          url="https://github.com/PublicHaus"
         />
       </div>
     </section>

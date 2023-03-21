@@ -16,7 +16,7 @@ const MemberDAOSection = () => {
           <div className={styles.sectionOneFlexMemberCTA}>
             <h2 className={styles.memberCTAHeading}>Become a member</h2>
             <p className={styles.memberCTACopy}>
-              If you want to join PublicHaus, you will need to Stake HAUS to
+              If you want to join PublicHAUS, you will need to Stake HAUS to
               recieve HAUS Shares.
               <br />
               <br />
