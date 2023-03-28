@@ -29,6 +29,7 @@ module.exports = {
         "tactical-execution",
         "meta-governance",
         "roadmap",
+        "haus"
       ],
     },
 

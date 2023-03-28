@@ -44,3 +44,10 @@ PUB and PUB-LOOT:
 - Supply: continuous by amount HAUS staked, managed by PublicHAUS
 - Transferable: false, managed by PublicHAUS
 - [Mainnet DAO](https://admin.daohaus.fun/#/molochv3/0x1/0xf844b98df9ccdfbe5d460d0d7bdca232cf9da923/settings)
+
+> ENS: eco.daohaus.eth 
+> This is our maintenance fund (Safe) on most chains you can point the safe app to 0x4A9a27d614a74Ee5524909cA27bdBcBB7eD3b315 on
+> - Mainnet
+> - Arbitrum
+> - Polygon
+> - Gnosis Chain
