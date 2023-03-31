@@ -14,7 +14,7 @@ title: Sponsoring a Champion
 
 - Your job as a Citizen is to choose a Champion wisely, pay attention to their decisions and hold them accountable.
 
-### To Sponsor a Champion, follow these steps:
+### To Sponsor a Champion, follow these steps
 
 1. **Visit** the verified Champion list [join.daohaus.fun/#/delegates](https://join.daohaus.fun/#/delegates)
 1. **Read** the champion platforms by clicking the "See Profile" link next to the Champion listing.

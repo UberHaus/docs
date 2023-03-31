@@ -16,7 +16,7 @@ title: Ascending to Champion
 
 ---
 
-### To become a Champion follow these steps:
+### To become a Champion follow these steps
 
 1. **Navigate** to [join.daohaus.fun/#/apply](https://join.daohaus.fun/#/apply)
 1. **Fill Out** the Verify Champion Form by providing your Champion Name, Champion Platform and a link to a resource.
